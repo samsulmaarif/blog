@@ -63,13 +63,13 @@ footer-links-active:
   instagram: true
   youtube: false
   spotify: false
-  telephone: false
+  telephone: true
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -87,7 +87,7 @@ disqus: "blogsamsul"
 #gtm: ""
 
 # Facebook App ID
-# fb_app_id: ""
+fb_app_id: "642615472602024"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page

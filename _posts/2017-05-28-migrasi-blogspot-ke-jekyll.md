@@ -11,6 +11,7 @@ tags:
 - Blogspot
 bigimg: 
 - "/img/pantai-balekambang_20160724_094830.jpg" : "Pantai Balekambang, Malang, Jawa Timur (2016)"
+share-img: "/img/blog-samsul-web-id-lama.png"
 thumbnail: "/img/blog-samsul-web-id-lama.png"
 ---
 
@@ -23,7 +24,7 @@ Lalu apa itu **GitHub Pages**. GitHub sendiri merupakan sebuah website yang meny
 Begini tampilan blog saya sebelum saya migrasikan ke sini :
 
 | ![Tampilan Blog lama dengan blogspot](/img/blog-samsul-web-id-lama.png) |
-| Tampilan Blog lama dengan blogspot |
+| Tampilan **blog.samsul.web.id** lama dengan blogspot |
 
 Lalu, bagaimana proses migrasinya? Oke, sabar dulu ya. Kita tuliskan dulu apa syarat-syarat sebelum migrasi dengan cara saya ini.
 
