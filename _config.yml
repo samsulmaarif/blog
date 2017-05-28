@@ -5,7 +5,7 @@ locale: id_ID
 description: Catatan kecil pengguna Linux.
 logo: site-logo.png
 search: true
-url: http://www.samsul.web.id/blog/
+url: http://www.samsul.web.id/blog
 
 # Jekyll configuration
 
