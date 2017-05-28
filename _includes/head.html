@@ -1,57 +1,120 @@
-<meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-{% if page.author %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-{% endif %}
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-{% include open-graph.html %}
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-{% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
-<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
-{% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
+  <meta name="author" content="{{ site.author.name }}" />
 
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-<link rel="canonical" href="{{ canonical }}">
-<link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  {% if page.subtitle %}
+  <meta name="description" content="{{ page.subtitle }}">
+  {% endif %}
 
-<!-- https://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-<!-- Webfonts -->
-<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+  {% include gtm_head.html %}
 
-<meta http-equiv="cleartype" content="on">
+  {% if layout.common-ext-css %}
+    {% for css in layout.common-ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
-<!-- HTML5 Shiv and Media Query Support -->
-<!--[if lt IE 9]>
-  <script src="{{ site.url }}/assets/js/vendor/html5shiv.min.js"></script>
-  <script src="{{ site.url }}/assets/js/vendor/respond.min.js"></script>
-<![endif]-->
+  {% if layout.common-css %}
+    {% for css in layout.common-css %}
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
 
-<!-- Modernizr -->
-<script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+  {% if layout.common-googlefonts %}
+    {% for font in layout.common-googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
 
-{% if site.mathjax == true %}
-<!-- MathJax -->
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-{% endif %}
+  {% if page.ext-css %}
+    {% for css in page.ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72-precomposed.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
+
+  {% if page.googlefonts %}
+    {% for font in page.googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
+
+    <!-- Facebook OpenGraph tags -->
+  {% if site.fb_app_id %}
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+  {% endif %}
+
+  {% if page.meta-title %}
+  <meta property="og:title" content="{{ page.meta-title }}" />
+  {% elsif page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}" />
+  {% endif %}
+
+   {% if page.meta-description %}
+  <meta property="og:description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta property="og:description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+
+
+  <meta property="og:type" content="website" />
+
+  {% if page.id %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  {% else %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  {% endif %}
+
+  {% if page.share-img %}
+  <meta property="og:image" content="{{ page.share-img }}" />
+  {% elsif site.avatar %}
+  <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
+  {% endif %}
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+
+  {% if page.meta-title %}
+  <meta name="twitter:title" content="{{ page.meta-title }}" />
+  {% elsif page.title %}
+  <meta name="twitter:title" content="{{ page.title }}" />
+  {% else %}
+  <meta name="twitter:title" content="{{ site.title }}" />
+  {% endif %}
+
+  {% if page.meta-description %}
+  <meta name="twitter:description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta name="twitter:description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+
+  {% if page.share-img %}
+  <meta name="twitter:image" content="{{ page.share-img }}" />
+  {% elsif site.avatar %}
+  <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
+  {% endif %}
+
+</head>
