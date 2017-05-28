@@ -8,7 +8,7 @@ tags:
 - Linux
 - Sertifikat
 bigimg: "/img/festival-destika-2015.jpg"
-thumbnail: "/img/sertifikat-fundamental-linux-administration.png"
+thumbnail: /img/sertifikat-fundamental-linux-administration.png
 ---
 
 ![Sertifikat Fundamental Linux Administration](/img/sertifikat-fundamental-linux-administration.png "Sertifikat Fundamental Linux Administration")
@@ -26,15 +26,15 @@ Di sebuah grup WhatsApp, saya sempat sharing tentang cara mendapatkan sertifikat
 ## Caranya :
 1. Mendaftar akun di https://www.cybrary.it/
 2. Pilih Course **Fundamental Linux Administration** -> https://www.cybrary.it/skill-certification-course/fundamental-linux-administration-certification-training-course
-3. Anda dapat mempelajari dulu materinya dengan klik Start Course
-4. Atau jika Anda cukup percaya diri, Anda dapat langsung ambil testnya dengan klik Skip to Exam
+3. Anda dapat mempelajari dulu materinya dengan klik **Start Course**
+4. Atau jika Anda cukup percaya diri, Anda dapat langsung ambil testnya dengan klik **Skip to Exam**
 5. Ketentuan soal :
    - Jumlah soal sebanyak 40 butir
    - Waktu 60 menit
-   - Nilai minimal untuk mendapatkan sertifikat adalah 70%
-6. Untuk mulai mengerjakan soal, klik **Buy Now**, harga normal untuk mengambil test ini adalah **$10**. Namun Anda dapat mengambilnya secara bebas biaya dengan menggunakan kode **FREESCT1** pada **Coupon Code**. Masukkan kode kupon, tunggu beberapa saat hingga formulir PayPal dan CC hilang.
-7. Dengan kode tersebut, Anda dapat megambil test tersebut tanpa biaya + jika Anda gagal, Anda memiliki 1 kesempatan untuk mengulang test tersebut.
-8. Soal berupa pilihan ganda, akan ditampilkan 1 soal per halaman. Jadi, Anda harus mengeklik tombol Next Question untuk maju ke soal berikutnya.
+   - Nilai minimal untuk mendapatkan sertifikat adalah **70%**
+6. Untuk mulai mengerjakan soal, klik **Buy Now**, harga normal untuk mengambil test ini adalah **$10**. Namun Anda dapat mengambilnya secara bebas biaya dengan menggunakan kode **FREESCT1** pada **Coupon Code**. Masukkan kode kupon, tunggu beberapa saat hingga formulir **PayPal** dan **CC** hilang.
+7. Dengan kode tersebut, Anda dapat megambil test tersebut tanpa biaya + _jika Anda gagal_, Anda memiliki **1 kesempatan** untuk mengulang test tersebut.
+8. Soal berupa pilihan ganda, akan ditampilkan 1 soal per halaman. Jadi, Anda harus mengeklik tombol **Next Question** untuk maju ke soal berikutnya.
 9. Seperti halnya saat UNBK kemarin (termasuk di Woka), ada opsi jika Anda masih ragu-ragu mengerjakan suatu soal yaitu dengan memberi bendera (**flag this question**) yang terletak di bawah, di antara tombol **next** dan **previous**.
 10. Kerjakan dengan hati-hati.
 11. Selamat mencoba
@@ -43,7 +43,7 @@ Di sebuah grup WhatsApp, saya sempat sharing tentang cara mendapatkan sertifikat
 - Saya hanya berbagi dan tidak menyediakan konsultasi seputar materi seputar Cybrary dan course-nya, maupun soal, apalagi jawaban. Jadi, untuk hal ini silakan dipelajari dan dicari sendiri.
 - Sertifikat akan keluar jika Anda berhasil mendapatkan nilai minimal 70%, 
 - Sertifikat **tidak** dikirim ke email, melainkan akan muncul di halaman web dalam bentuk PDF. 
-- Oiya, pastikan Anda juga mengisi Nama Lengkap Anda di halaman profil, karena nama itu yang akan tercetak di sertifikat.
+- Oiya, pastikan Anda juga mengisi **Nama Lengkap** Anda di halaman profil, karena nama itu yang akan tercetak di sertifikat.
 - Anda dapat mencetak sertifikat tersebut dengan printer jika dibutuhkan.
 - tombol, menu, maupun teks mungkin berbeda saat Anda mencoba. Karena saya menulis ini berdasarkan apa yang saya ingat.
 - Semoga bermanfaat.

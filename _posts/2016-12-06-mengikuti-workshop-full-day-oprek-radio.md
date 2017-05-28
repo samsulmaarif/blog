@@ -57,8 +57,8 @@ Yang ke-2, saya kembali bertemu pak Onno di Beltim (Belitung Timur) saat mengiku
 
 
 
-[![Wuasana workshop saat istirahat](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s320/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s1600/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg "Wuasana workshop saat istirahat")
-
+|[![Suasana workshop saat istirahat](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s640/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s1600/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg "Suasana workshop saat istirahat")|
+|Suasana workshop saat istirahat|
 
 Menurut saya, pengalaman belajar secara langsung dengan pak Onno adalah pengalaman yang luar biasa. Bagaimana tidak, beliau adalah orang yang hebat. Salah satu kontribusi besar beliau yang dirasakan manfaatnya oleh jutaan orang Indonesia adalah [dibebaskannya frekuensi 2,4 Ghz](http://lms.onnocenter.or.id/wiki/index.php/Sejarah_Internet_Indonesia:Pembebasan_Frekuensi_2.4Ghz).  
 
