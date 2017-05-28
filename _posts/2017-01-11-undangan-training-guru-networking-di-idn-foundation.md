@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Undangan Training Guru Networking di IDN Foundation
+title: Mendapat Undangan Training Guru Networking di IDN Foundation
 date: '2017-01-11T19:17:00.003+07:00'
 author: Samsul Ma'arif
 categories: blog
@@ -29,38 +29,27 @@ Agak lama juga tuh saya nulisnya, beberapa jam.
 Lalu Rabu, 4 Januari 2017 saya menerima surel dari info@idn.id yang bertajuk **Undangan Training Guru Networking**, yang isinya begini :  
 
 
-
-
-
-
-
-
-
-Yth. Bapak/Ibu,
-
-Peserta Pelatihan Guru
-
-
-
-Bersama ini kami mengundang Anda, untuk mengikuti training networking yang akan dilaksanakan pada :  
-Hari / Tanggal    : Selasa - Selasa, 10 - 17 Januari 2017  
-Waktu              : 08.00 - 23.00 WIB  
-Lokasi              : SMK IDN, Pesantren Madinatulquran Jonggol Kab. Bogor (Jl.TMMD Melati Sodong, Desa Singasari, Kec.Jonggol, Kab. Bogor 16830)  
-
-Berikut beberapa informasi yang perlu kami sampaikan terkait dengan pelaksanaan training :
-
-1. Membawa CV, surat tugas, dan surat pernyataan   
-
-
-2\. Tidak tersedia angkutan umum, disarankan naik uber/gocar/grab mobil bersama-sama guru lain3\. Silahkan join group telegram **[link disembunyikan]** untuk mempermudah komunikasi apabila ada informasi tambahan
-
-Terlampir daftar peserta training guru, silahkan mengkoordinir sendiri bagi yang ingin berangkat bersama.
-
-Terimakasih atas perhatiannya
-
-Salam,
-
-Ayu  
+> Yth. Bapak/Ibu,
+>
+> Peserta Pelatihan Guru
+>
+> Bersama ini kami mengundang Anda, untuk mengikuti training networking yang akan dilaksanakan pada :  
+> Hari / Tanggal    : Selasa - Selasa, 10 - 17 Januari 2017  
+> Waktu              : 08.00 - 23.00 WIB  
+> Lokasi              : SMK IDN, Pesantren Madinatulquran Jonggol Kab. Bogor (Jl.TMMD Melati Sodong, Desa Singasari, Kec.Jonggol, Kab. Bogor 16830)  
+> 
+> Berikut beberapa informasi yang perlu kami sampaikan terkait dengan pelaksanaan training :
+> 
+> 1. Membawa CV, surat tugas, dan surat pernyataan   
+> 2. Tidak tersedia angkutan umum, disarankan naik uber/gocar/grab mobil bersama-sama guru lain3\. Silahkan join group telegram **[link disembunyikan]** untuk mempermudah komunikasi apabila ada informasi tambahan
+> 
+> Terlampir daftar peserta training guru, silahkan mengkoordinir sendiri bagi yang ingin berangkat bersama.
+> 
+> Terimakasih atas perhatiannya
+> 
+> Salam,
+> 
+> Ayu  
 
 Saya dapat email itu saat saya sedang di sekolah. Langsung saya tunjukkan ke Waka Kurikulum dan Kajur TKJ. Baik Waka Kurikulum maupun Kajur TKJ sama-sama mempersilakan untuk mengikuti kegiatan tersebut. Namun entah dengan pak kepsek.  
 
@@ -82,7 +71,7 @@ Berlanjut ke kebingungan berikutnya. Apa itu? saya bingung bagaimana berangkatny
 
 Perjalanan naik bis ke kota lain memang bukan pertama kali ini. Sebelumnya pernah ke Malang, terus ke mana lagi yah. Sejauh ini itu sing yang paling jauh. Namun perjalan kali ni cukup terasa melelahkan yang mudah-mudahan hasilnya nanti memuaskan. Naik bis dari Sidareja, berangkat pukul 06:12 waktu setempat. Sampai di pool Sinar Jaya Cibitung, Bekasi sekitar pukul 17:17 WIB.  
 
-Nah, yang berikutnya pengalaman naik taksi online yang cukup berkesan buat saya, karena ya baru pertama kali ini. Baru sesaat turun dari bis, langsung saya buka aplikasi di hape. Hemm... perlu saya sebut merk gak yah... hahaha... garb, itu nama aplikasinya.  
+Nah, yang berikutnya pengalaman naik taksi online yang cukup berkesan buat saya, karena ya baru pertama kali ini. Baru sesaat turun dari bis, langsung saya buka aplikasi di hape. Hemm... perlu saya sebut merk gak yah... hahaha... grab, itu nama aplikasinya.  
 
 Buka aplikasi, tentukan lokasi tujuan, lalu beberapa detik berikutnya langsung ada telepon masuk. "Halo, pak samsul. Mau dijemput di mana?" suara dari ujung telepon. "Saya di pool bis sinar jaya pak," jawab saya. Selanjutnya pak sopir yang bernama Solehan mengarahkan saya untuk menuju pos polisi yang tak jauh dari situ. Beliau akan menunggu di belakang pos tersebut.  
 

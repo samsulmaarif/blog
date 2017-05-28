@@ -26,6 +26,7 @@ Untuk hal ini saya akan mencoba membuat sebuah repositori lokal. Secara teknis, 
 
 Sekedar informasi, sistem operasi yang saya gunakan adalah _Ubuntu Studio 14.04 64bit_, `apache2` web server telah terinstall dan siap digunakan dengan `DocumentRoot` berada di `/var/www/html/`. Kartu jaringan yang digunakan adalah `wlan0` untuk dihubungkan dengan metode `bridge`pada instalasi Debian 7 di _VirtualBox_. Menggunakan alamat jaringan 192.168.7.0/24 dengan DHCP telah diaktifkan.
 
+```
 [samsul@studio debian]$ pwd  
 /media/samsul/Expansion Drive/ISO/debian  
 [samsul@studio debian]$ ls -l | awk '{print $9}'  
@@ -36,18 +37,25 @@ debian-7.7.0-i386-DVD-1.iso
 debian-7.7.0-i386-DVD-2.iso  
 debian-7.7.0-i386-DVD-3.iso  
 debian-live-6.0.3-i386-standard.iso
+```
 
 Jika dilihat di situ, saya telah memiliki berkas iso debian 7.7 DVD 1 hingga 3\. Langkah selanjutnya adalah membuat direktori untuk mounting berkas iso tersebut:
 
-  [samsul@studio debian]$ sudo mkdir -p /media/debian/dvd{1,2,3}
+```
+[samsul@studio debian]$ sudo mkdir -p /media/debian/dvd{1,2,3}
+```
 
 Perintah tersebut akan membuat direktori `dvd1`, `dvd2`, dan `dvd3` pada `/media/debian/`. Kemudian mount berkas iso pada direktori yang sesuai:
 
-  [samsul@studio debian]$ sudo mount -t iso9660 -o loop debian-7.7.0-i386-DVD-1.iso /media/debian/dvd1
+```
+[samsul@studio debian]$ sudo mount -t iso9660 -o loop debian-7.7.0-i386-DVD-1.iso /media/debian/dvd1
+```
 
 Lakukan hal yang sama untuk dvd2 dan dvd3\. Kemudian buat _symbolic link_ direktori `/media/debian/` ke `DocumentRoot` web server:
 
-  [samsul@studio debian]$ sudo ln -s /media/debian /var/www/html/debian
+```
+[samsul@studio debian]$ sudo ln -s /media/debian /var/www/html/debian
+```
 
 Uji hasilnya dengan mengakses alamat `[http://192.168.7.1/debian](http://192.168.7.1/debian "http://192.168.7.1/debian")` melalui browser:
 

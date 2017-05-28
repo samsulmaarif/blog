@@ -11,7 +11,7 @@ blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-60702566253600663
 blogger_orig_url: http://blog.samsul.web.id/2011/10/ngoprek-semalam-dua-orang-keracunan.html
 ---
 
-Sore hari ponselku berdering, ternyata seorang yang belum kukenal berniat untuk datang ke kantorku (wua ha ha ha... kayak kantor beneran :D). Saya tidak melakukan persiapan apapun, karena saya sendiri juga belum yakin dia akan benar-benar datang, apalagi kondisi sore itu sedikit gerimis. Kang [Ahmad Bahaullah](http://www.facebook.com/soichiroblue) membawa serta kedua temannya. Tepat adzan maghrib mereka sampai, sebelum melakukan apapun memang sebaiknya selesaikan dulu kewajiban kita :D.
+Sore hari ponselku berdering, ternyata seorang yang belum kukenal berniat untuk datang ke kantorku (wua ha ha ha... kayak kantor beneran :D). Saya tidak melakukan persiapan apapun, karena saya sendiri juga belum yakin dia akan benar-benar datang, apalagi kondisi sore itu sedikit gerimis. Kang [Akbar Bahaulloh](http://www.facebook.com/soichiroblue) membawa serta kedua temannya. Tepat adzan maghrib mereka sampai, sebelum melakukan apapun memang sebaiknya selesaikan dulu kewajiban kita :D.
 
 Kehadiran mereke tentu saja saya sambut dengan senang hati. Karena tentu saja saya pasti akan mendapat ilmu dan pengalaman baru, apalagi setahu saya mereka itu anak 'kuliahan' sedangkan saya gelandangan enggak karuan (wua ha ha ha..). Oh, saya tidak tahu bagaimana cara menceritakannya!
 

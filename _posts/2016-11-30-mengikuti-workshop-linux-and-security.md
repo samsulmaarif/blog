@@ -32,8 +32,9 @@ Berikut ini catatan yang dibuat oleh pemateri :
 
 Dan berikut daftar putar video acaranya.  
 
-  
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7-xLuHP4DbNFTg61gJqYSiXEc8v_6L6T" width="560"></iframe>
 
 Gimana? sudah nonton? seru kan acaranya? Ada demo hacking, ada tanya jawab, dan lain-lain. Eh, ada live perform juga lho dari UKM Musik St3Telkom Purwokerto :  
 
-">
+
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7-xLuHP4DbPAVU2jOBzkNXF1M81Ehro_" width="560"></iframe>

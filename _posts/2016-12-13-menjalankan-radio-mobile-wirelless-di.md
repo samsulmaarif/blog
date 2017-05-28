@@ -36,20 +36,28 @@ Akhirnya saya kembali meminta file RMW ke pembicara, flashdisk saya pun diformat
 
 Sembari menunggu, saya sempatkan menginstall **wine** dengan koneksi yang disediakan panitia. Kenapa? Karena untuk menjalankan aplikasi berbasis windows, sedangkan saya menggunakan Ubuntu Studio 16.04 64 bit.  
 
-**sudo apt install wine**  
+```
+sudo apt install wine
+```
 
 Setelah file disalin, tanpa saya membaca [panduan ini](http://lms.onnocenter.or.id/wiki/index.php/RMW:_Instalasi_Radio_Mobile), saya pun iseng menjalankan :  
 
-**cd ~/Unduhan/RMW/**  
-**wine rmweng.exe**  
+```
+cd ~/Unduhan/RMW/
+wine rmweng.exe
+```
 
 Lalu saya mendapatkan pesan error kurang lebih seperti ini:  
 
-**err:module:import_dll Library MSVBVM60.DLL**  
+```
+err:module:import_dll Library MSVBVM60.DLL
+```
 
 Googling sebentar, saya pun menemukan [solusinya](https://ubuntuforums.org/showthread.php?t=2144183), dengan menjalankan :  
 
-**winetricks**  
+```
+winetricks
+```
 
 tampilannya akan seperti di bawah ini, pilih "select the default wine prefix" :  
 
@@ -67,7 +75,10 @@ Klik Ok lagi, tunggu beberapa saat. Sistem akan mengunduh file yang diperlukan, 
 
 Setelah proses unduh selesai dan tidak ada error, kembali saya jalankan :  
 
-**wine rmweng.exe**  
+```
+wine rmweng.exe
+```
+
 Tada...  
 
 [![](https://4.bp.blogspot.com/-bZql3IV75qo/WE-tWLepqdI/AAAAAAAAOJk/o7neT1V5rR0HywBEZpJh8_4XJ_J-B4t3gCLcB/s320/Cuplikan%2BLayar_2016-12-13_15-11-30.png)](https://4.bp.blogspot.com/-bZql3IV75qo/WE-tWLepqdI/AAAAAAAAOJk/o7neT1V5rR0HywBEZpJh8_4XJ_J-B4t3gCLcB/s1600/Cuplikan%2BLayar_2016-12-13_15-11-30.png)

@@ -28,15 +28,19 @@ Nah setelah sekian waktu lamanya saya mencari (atau menunggu; karena saya tidak 
 
 Skrip tersebut mengotomatisasi apa yang saya harapkan : membuat akses point yang dapat dijangkau oleh ponsel andoid (saya).  
 
-**Cara Menggunakan?**  
+## Cara Menggunakan?
 
 Untuk menggunakan skrip ini caranya cukup sederhana, salin seluruh isi skrip di atas ke dalam teks editor misalnya diberi nama _install_wifi_access_point.sh_, lalu beri akses eksekusi ke berkas/skrip tersebut :  
 
-`[samsul@studio Source]$ sudo chmod +x install_wifi_access_point.sh`
+```
+[samsul@studio Source]$ sudo chmod +x install_wifi_access_point.sh
+```
 
 Jalankan skrip tersebut dengan mengetikkan perintah :  
 
-`[samsul@studio Source]$ sudo bash install_wifi_access_point.sh`
+```
+[samsul@studio Source]$ sudo bash install_wifi_access_point.sh
+```
 
 Nah, berikut log terminal saya ketika mengeksekusi perintah tersebut :  
 
