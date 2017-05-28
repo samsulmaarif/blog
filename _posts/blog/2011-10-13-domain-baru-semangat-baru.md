@@ -3,6 +3,7 @@ layout: post
 title: Domain Baru - Semangat Baru
 date: '2011-10-13T23:25:00.000+07:00'
 author: Samsul Maarif
+categories: blog
 tags: 
 modified_time: '2011-10-13T23:31:55.085+07:00'
 blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-7978719144210317368

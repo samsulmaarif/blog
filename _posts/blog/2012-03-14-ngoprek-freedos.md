@@ -3,6 +3,7 @@ layout: post
 title: Ngoprek FreeDOS
 date: '2012-03-14T10:42:00.000+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Tutorial
 - freedos
@@ -21,37 +22,37 @@ image inilah yang akan diload saat menjalankan liveCD. Nama filenya [balder10.im
 
 buat folder untuk memount file fd11src.iso
 
-<span style="color: #38761d;">$ sudo mkdir -p ~/liveCD/fdos</span>
+$ sudo mkdir -p ~/liveCD/fdos
 
 mount file iso tadi ke folder tersebut
 
-<span style="color: #38761d;">$ sudo mount fd11src.iso -o loop ~/liveCD/fdos</span>
+$ sudo mount fd11src.iso -o loop ~/liveCD/fdos
 
 salin isinya ke folder yang baru agar dapat dioprek
 
-<span style="color: #38761d;">$ mkdir ~/liveCD/custom</span>  
-<span style="color: #38761d;">$ rsync -avH ~/liveCD/fdos ~/liveCD/custom</span>
+$ mkdir ~/liveCD/custom  
+$ rsync -avH ~/liveCD/fdos ~/liveCD/custom
 
 masuk ke folder custom
 
-<span style="color: #38761d;">$ cd ~/liveCD/custom</span>
+$ cd ~/liveCD/custom
 
 salin file balder10.img yang kita download tadi ke dalam folder ini
 
-<span style="color: #38761d;">$ cp ~/Unduhan/balder10.img ~/liveCD/custom</span>
+$ cp ~/Unduhan/balder10.img ~/liveCD/custom
 
 ganti namanya menjadi balder.img saja (ini opsional, namun ini akan memengaruhi opsi selanjutnya)
 
-<span style="color: #38761d;">$ mv balder10.img balder.img</span>
+$ mv balder10.img balder.img
 
 hapus file yang tidak diperlukan
 
-<span style="color: #38761d;">$ rm autorun.inf setup.bat</span>
+$ rm autorun.inf setup.bat
 
 masuk ke folder isolinux untuk mengedit file isolinux.cfg
 
-<span style="color: #38761d;">$ cd isolinux</span>  
-<span style="color: #38761d;">$ vim isolinux.cfg</span>
+$ cd isolinux  
+$ vim isolinux.cfg
 
 rubah isi filenya agar menjadi seperti ini :
 
@@ -133,11 +134,11 @@ rubah isi filenya agar menjadi seperti ini :
 
 finally buat isonya dengan perintah berikut :
 
-<span style="color: #38761d;">$ mkisofs -r -V "FreeDOS-Live-Samsul" \ </span>  
-<span style="color: #38761d;">-o freedos-live.iso -b ~/liveCD/custom/isolinux/isolinux.bin \</span>  
-<span style="color: #38761d;">-c ~/liveCD/custom/isolinux/boot.cat -cache-inode \</span>  
-<span style="color: #38761d;">-J -l -no-emul-boot -boot-load-size 4 -boot-info-table \</span>  
-<span style="color: #38761d;">~/liveCD/custom/</span>
+$ mkisofs -r -V "FreeDOS-Live-Samsul" \   
+-o freedos-live.iso -b ~/liveCD/custom/isolinux/isolinux.bin \  
+-c ~/liveCD/custom/isolinux/boot.cat -cache-inode \  
+-J -l -no-emul-boot -boot-load-size 4 -boot-info-table \  
+~/liveCD/custom/
 
 berikut output dari perintah tersebut :
 
@@ -158,10 +159,10 @@ prosesnya tidak memakan banyak waktu, karena filenya kecil.
 
 kini tinggal diujicoba dengan mesin virtual, saya menggunakan QEMU :
 
-<span style="color: #38761d;">$ qemu -cdrom freedos-live.iso</span>
+$ qemu -cdrom freedos-live.iso
 
-**<span style="color: #cc0000; font-size: large;">  
-</span>**
+**  
+**
 
 **Resource :**
 

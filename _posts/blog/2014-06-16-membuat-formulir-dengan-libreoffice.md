@@ -3,6 +3,7 @@ layout: post
 title: Membuat Formulir dengan LibreOffice Base (1)
 date: '2014-06-16T03:51:00.000+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Database
 - ODBC

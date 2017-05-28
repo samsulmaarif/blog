@@ -3,6 +3,7 @@ layout: post
 title: Revolution OS - Film Dokumenter Linux
 date: '2011-10-14T03:01:00.000+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - video
 modified_time: '2011-10-14T03:01:20.783+07:00'
@@ -25,6 +26,6 @@ Narasinya meliputi awal berurusan dengan pemodal ventura, akhirnya kapitalisasi 
 Artikel ini hanyalah merupakan terjemahan bebas dari saya yang saya ambil dari [topdocumentaryfilms.com](http://topdocumentaryfilms.com/revolution-os/). Jika Anda menemukan kesalahan dalam terjemahan saya, mohon berkenan untuk memberikan masukan dan saran melalui komentar. Sebelumnya mau saya terbitkan di [blog wordpress saya](http://blog.samsul.web.id/). Tapi setelah saya pertimbangkan akan lebih baik jika di sini karena beberapa hal. Pertama wordpress tidak dapat meng-'embed' video secara langsung, apalagi hanya wordpress gratisan. Sedangkan alasan kedua adalah untuk mengisi kekosongan posting blog yang baru dibuat.  
 Jika Anda hendak mendownload video ini, silahkan gunakan [downloadhelper](http://www.downloadhelper.net/) atau yang lainnya. Atau jika Anda memiliki koneksi internet yang melimpah Anda juga dapat menontonnya secara online :  
 
-<div align="center">**~Selamat Menonton~**</div>
+**~Selamat Menonton~**
 
-<div align="center"><embed allowfullscreen="true" flashvars="fs=true" id="VideoPlayback" src="http://video.google.com/googleplayer.swf?docId=7707585592627775409" style="height: 320px; width: 520px;" type="application/x-shockwave-flash"></div>
+

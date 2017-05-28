@@ -3,6 +3,7 @@ layout: post
 title: Cara Reset Printer Epson Stylus Photo R230 di Linux (BlankOn)
 date: '2011-12-19T14:21:00.003+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Linux
 - Reset Printer
@@ -18,31 +19,31 @@ Ok, saya tidak akan menjelaskan panjang kali lebar, alas kali tinggi tentang win
 
 Hingga saat ini, printer tersebut termasuk printer yang sangat bersahabat dengan Linux. Istilahnya 'plug and play' sekali dicolokkan di BlankOn, kita langsung dapat menggunakannya untuk mencetak. Printer ini menggunakan driver dari [CUPS (Common Unix Printing System)](http://www.cups.org/) yang kebanyakan distro telah terinstall secara default.  
 
-Suatu ketika saya melakukan cetak dokumen, tiba-tiba printer saya "kumat". [Dua lampunya berkedip-kedip merah](http://www.google.co.id/search?client=opera&rls=id&q=epson+r230+kedip-kedip&sourceid=opera&ie=utf-8&oe=utf-8&channel=suggest). Secara spontan dan refleks saya mencoba mengetikkan perintah berikut di terminal <span style="font-size: xx-small;">(karena sudah terbiasa melakukan restart service apache "$ sudo /etc/init.d/apache2 restart")</span> :  
+Suatu ketika saya melakukan cetak dokumen, tiba-tiba printer saya "kumat". [Dua lampunya berkedip-kedip merah](http://www.google.co.id/search?client=opera&rls=id&q=epson+r230+kedip-kedip&sourceid=opera&ie=utf-8&oe=utf-8&channel=suggest). Secara spontan dan refleks saya mencoba mengetikkan perintah berikut di terminal (karena sudah terbiasa melakukan restart service apache "$ sudo /etc/init.d/apache2 restart") :  
 
 > $ sudo /etc/init.d/cups restart
 
 Lalu printer saya matikan dan nyalakan lagi. Viollaa... printer Epson Stylus Photo R230 saya kini sembuh seperti sedia kala (tidak berkedip-kedip lagi). Printer lalu melakukan head cleaning dengan sendirinya.  
 
-<table class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;" cellspacing="0" cellpadding="0" align="center">
 
-<tbody>
 
-<tr>
 
-<td style="text-align: center;">[![](http://4.bp.blogspot.com/-G9--CIN3Hgc/Tu7uP4Jt8ZI/AAAAAAAADgk/0430p7fXgHs/s640/Gambar-Layar-Printer%252520Properties%252520-%252520%252527Stylus-Photo-R230%252527%252520on%252520localhost.png)](http://4.bp.blogspot.com/-G9--CIN3Hgc/Tu7uP4Jt8ZI/AAAAAAAADgk/0430p7fXgHs/s695/Gambar-Layar-Printer%252520Properties%252520-%252520%252527Stylus-Photo-R230%252527%252520on%252520localhost.png)</td>
 
-</tr>
 
-<tr>
 
-<td class="tr-caption" style="text-align: center;">[gambar : Gambar-Layar-Printer Properties - 'Stylus-Photo-R230' on localhost]</td>
+[![](http://4.bp.blogspot.com/-G9--CIN3Hgc/Tu7uP4Jt8ZI/AAAAAAAADgk/0430p7fXgHs/s640/Gambar-Layar-Printer%252520Properties%252520-%252520%252527Stylus-Photo-R230%252527%252520on%252520localhost.png)](http://4.bp.blogspot.com/-G9--CIN3Hgc/Tu7uP4Jt8ZI/AAAAAAAADgk/0430p7fXgHs/s695/Gambar-Layar-Printer%252520Properties%252520-%252520%252527Stylus-Photo-R230%252527%252520on%252520localhost.png)
 
-</tr>
 
-</tbody>
 
-</table>
+
+
+[gambar : Gambar-Layar-Printer Properties - 'Stylus-Photo-R230' on localhost]
+
+
+
+
+
+
 
 Karena merasa belum yakin dengan hasil head cleaning otomatis, saya coba dengan langkah berikut : Sistem > Administrasi > Mencetak (Printing), lalu klik kanan pada printer > pilih Properti > klik tombol "Bersihkan Head Cetak", lalu tunggu beberapa saat. Untuk melihat/menguji hasilnya, klik tombol "Cetak Halaman Uji-sendiri", periksa apakah warnanya sudah lengkap? ulangi langkah tadi hingga warnanya lengkap.  
 

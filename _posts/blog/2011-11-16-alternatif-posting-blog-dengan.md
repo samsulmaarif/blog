@@ -3,6 +3,7 @@ layout: post
 title: Alternatif Posting Blog dengan Scribefire
 date: '2011-11-16T12:02:00.001+07:00'
 author: Go-Blog
+categories: blog
 tags:
 - Tutorial
 - blogging

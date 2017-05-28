@@ -3,6 +3,7 @@ layout: post
 title: wvdial GUI
 date: '2011-11-12T12:40:00.001+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Tutorial
 modified_time: '2011-11-12T12:51:52.656+07:00'
@@ -15,7 +16,7 @@ Tersedianya repository offline memancing saya untuk dapat mencoba berbagai aplik
 
 Berikut ini adalah deskripsi dari gnome-ppp yang juga dapat kita baca di synaptic :
 
-> <pre>GNOME PPP is an easy to use graphical dialup connection configuring  
+> GNOME PPP is an easy to use graphical dialup connection configuring  
 > and dialing tool with system tray icon support.  
 >   
 > It uses GNOME/GTK+ for its graphical interface and integrates well  
@@ -25,14 +26,14 @@ Berikut ini adalah deskripsi dari gnome-ppp yang juga dapat kita baca di synapti
 > via config files. You can also use plain wvdial if you don't have X running.  
 >   
 >  Homepage: http://www.gnome-ppp.org/  
-> </pre>
+> 
 
 Ketika kita masih menggunakan wvdial secara langsung melalui terminal, kita akan familiar dengan beberapa perintah diantaranya "wvdialconf" (untuk mendeteksi modem dan membuat berkas konfigurasi /etc/wvdial.conf) dan "wvdial nama_koneksi" (untuk melalukan dial a.k.a mengoneksikan ke internet), dengan gnome-ppp kita hanya perlu memasukkan beberapa parameter yang diperlukan dan beberapa klik saja.
 
 Untuk menginstall paket aplikasi gnome-ppp melalui terminal ketikkan perintah berikut di terminal :
 
-> <pre>$ sudo apt-get install gnome-ppp  
-> </pre>
+> $ sudo apt-get install gnome-ppp  
+> 
 
 Setelah terinstall, klik menu Aplikasi > Internet > GNOME PPP, penampakannya seperti gambar berikut :
 
@@ -52,20 +53,20 @@ Tambahan :
 
 Berikut ini adalah alternatif yang pernah saya coba di laptop teman yang sempat berkunjung ke gubug saya. Jika modem kita tidak terdeteksi, misalnya hanya terdeteksi sebagai cdrom (/dev/srX), eject dulu dengan perintah :
 
-> <pre style="text-align: left;">$ sudo eject /dev/srX  
-> </pre>
+> $ sudo eject /dev/srX  
+> 
 
 sesuaikan X dengan kondisi di komputer kita. Atau dengan cara yang lebih mudah, melalui nautilus klik kanan pada cdrom kemudian pilih Lepas kaitan (unmount). Kemudian coba kembali melalui setup gnome-ppp klik tombol 'detect'.
 
 Jika masih belum terdeteksi, ketikkan perintah berikut di terminal :
 
-> <pre style="text-align: left;">$ lsusb  
-> </pre>
+> $ lsusb  
+> 
 
 perintah tersebut adalah untuk melihat serial dari usb modem kita. Ketikkan perintah tersebut sebelum dan sesudah ditancapkan, perhatikan perbedaannya. Sebagai misalnya, usb modem milik teman saya terdeteksi dengan 21f5:2008 maka masukkan parameter usbserial di terminal dengan perintah sebagai berikut :
 
-> <pre style="text-align: left;">$ sudo modprobe usbserial vendor=0x21f5 product=0x2008  
-> </pre>
+> $ sudo modprobe usbserial vendor=0x21f5 product=0x2008  
+> 
 
 Setelah melalui proses ini, biasanya modem akan terdeteksi. Coba kembali klik tombol 'detect'.
 

@@ -3,6 +3,7 @@ layout: post
 title: Membunuh Banyak Proses
 date: '2013-03-27T02:35:00.001+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Linux
 - Tutorial

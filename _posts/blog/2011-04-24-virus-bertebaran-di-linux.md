@@ -3,6 +3,7 @@ layout: post
 title: Virus Bertebaran di Linux
 date: '2011-04-24T15:05:00.001+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Linux
 - Virus
@@ -20,25 +21,25 @@ Seperti yang dapat di baca di artikel tersebut, sebagi kesimpulannya bahwa virus
 
 Sebenarnya, virus/'program jahat' di Linux itu ada. Tapi dia tidak akan dapat berkembang karena setiap program yang berjalan harus melewati otorisasi terlebih dahulu. Sudah, itu saja intinya.  
 
-<table class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;" cellspacing="0" cellpadding="0" align="center">
 
-<tbody>
 
-<tr>
 
-<td style="text-align: center;">[![](http://4.bp.blogspot.com/-ZECxql32Kro/Tph1cC1yM6I/AAAAAAAADRA/bDPvyoMdVlQ/s400/Virus+Scan.png)](http://4.bp.blogspot.com/-ZECxql32Kro/Tph1cC1yM6I/AAAAAAAADRA/bDPvyoMdVlQ/s1600/Virus+Scan.png)</td>
 
-</tr>
 
-<tr>
 
-<td class="tr-caption" style="text-align: center;">Scan Eksternal HDD dengan clamtk (GUInya clamav) di Sabily a.k.a Ubuntu Moslem Edition</td>
+[![](http://4.bp.blogspot.com/-ZECxql32Kro/Tph1cC1yM6I/AAAAAAAADRA/bDPvyoMdVlQ/s400/Virus+Scan.png)](http://4.bp.blogspot.com/-ZECxql32Kro/Tph1cC1yM6I/AAAAAAAADRA/bDPvyoMdVlQ/s1600/Virus+Scan.png)
 
-</tr>
 
-</tbody>
 
-</table>
+
+
+Scan Eksternal HDD dengan clamtk (GUInya clamav) di Sabily a.k.a Ubuntu Moslem Edition
+
+
+
+
+
+
 
 Ngomong-omong tentang virus, saya pernah diminta untuk menyecan HDD teman saya yang kalau enggak salah ukurannya 500GB beberapa bulan yang lalu ketika saya masih menggunakan Sabily 10.10 Al-Quds. Dari hasil scan seperti nampak pada gambar terdapat 7792 virus yang terdeteksi. Saya coba untuk menghapus virusnya (karena asumsi saya, virus baru discan dan belum dihapus), dan mencari tool-tool yang ada. Alhasil virus tidak bisa dihapus karena toolnya tidak saya temukan (lebih tepatnya terlalu bodohnya saya karena hanya asal klak-klik sana-sini).  
 

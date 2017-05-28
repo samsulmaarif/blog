@@ -3,6 +3,7 @@ layout: post
 title: Undangan Training Guru Networking di IDN Foundation
 date: '2017-01-11T19:17:00.003+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - IDN Foundation
 - Workshop
@@ -15,7 +16,7 @@ blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-79350248443293266
 blogger_orig_url: http://blog.samsul.web.id/2017/01/undangan-training-guru-networking-di-idn-foundation.html
 ---
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://1.bp.blogspot.com/-fvSLmh3siPc/WHXNpyQWVRI/AAAAAAAAPV0/thTFGGd07xsuud_Qh_M52ocz2ThR8XNowCLcB/s320/training-guru-tkj-IDN-Foundation.jpg)](https://1.bp.blogspot.com/-fvSLmh3siPc/WHXNpyQWVRI/AAAAAAAAPV0/thTFGGd07xsuud_Qh_M52ocz2ThR8XNowCLcB/s1600/training-guru-tkj-IDN-Foundation.jpg)</div>
+[![](https://1.bp.blogspot.com/-fvSLmh3siPc/WHXNpyQWVRI/AAAAAAAAPV0/thTFGGd07xsuud_Qh_M52ocz2ThR8XNowCLcB/s320/training-guru-tkj-IDN-Foundation.jpg)](https://1.bp.blogspot.com/-fvSLmh3siPc/WHXNpyQWVRI/AAAAAAAAPV0/thTFGGd07xsuud_Qh_M52ocz2ThR8XNowCLcB/s1600/training-guru-tkj-IDN-Foundation.jpg)
 
 Belum banyak yang saya tau tentang Miktorik kecuali hal dasar yang saya dapatkan dari mengikuti pelatihan di BLC Telkom Klaten sebelumnya, pada 8-13 Agustus 2016 lalu. Di sana pula saya mendengar tentang IDN (ID Networkers) Foundation dari teman-teman.  
 
@@ -27,39 +28,39 @@ Agak lama juga tuh saya nulisnya, beberapa jam.
 
 Lalu Rabu, 4 Januari 2017 saya menerima surel dari info@idn.id yang bertajuk **Undangan Training Guru Networking**, yang isinya begini :  
 
-<div style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;">
 
-<div>
 
-<div>
 
-<div>
 
-<div dir="ltr">Yth. Bapak/Ibu,</div>
 
-<div>Peserta Pelatihan <span class="m_-2311816831528986674gmail-il">Guru</span></div>
 
-</div>
 
-Bersama ini kami mengundang Anda, untuk mengikuti <span class="m_-2311816831528986674gmail-il">training</span> networking yang akan dilaksanakan pada :  
+
+Yth. Bapak/Ibu,
+
+Peserta Pelatihan Guru
+
+
+
+Bersama ini kami mengundang Anda, untuk mengikuti training networking yang akan dilaksanakan pada :  
 Hari / Tanggal    : Selasa - Selasa, 10 - 17 Januari 2017  
 Waktu              : 08.00 - 23.00 WIB  
 Lokasi              : SMK IDN, Pesantren Madinatulquran Jonggol Kab. Bogor (Jl.TMMD Melati Sodong, Desa Singasari, Kec.Jonggol, Kab. Bogor 16830)  
 
-<span style="font-size: 12.8px;">Berikut beberapa informasi yang perlu kami sampaikan terkait dengan pelaksanaan <span class="m_-2311816831528986674gmail-il">training</span> :</span></div>
+Berikut beberapa informasi yang perlu kami sampaikan terkait dengan pelaksanaan training :
 
-<div><span style="font-size: 12.8px;">1. </span><span style="font-size: 12.8px;">Membawa CV, surat tugas, dan surat pernyataan </span><span style="font-size: 12.8px;"><span style="font-size: 12.8px;"></span></span><span style="font-size: 12.8px;">  
-</span></div>
+1. Membawa CV, surat tugas, dan surat pernyataan   
 
-2\. Tidak tersedia angkutan umum, disarankan naik uber/gocar/grab mobil bersama-sama <span class="m_-2311816831528986674gmail-il">guru</span> lain3\. Silahkan join group telegram **[link disembunyikan]** untuk mempermudah komunikasi apabila ada informasi tambahan</div>
 
-<div>Terlampir daftar peserta <span class="m_-2311816831528986674gmail-il">training</span> <span class="m_-2311816831528986674gmail-il">guru</span>, silahkan mengkoordinir sendiri bagi yang ingin berangkat bersama.</div>
+2\. Tidak tersedia angkutan umum, disarankan naik uber/gocar/grab mobil bersama-sama guru lain3\. Silahkan join group telegram **[link disembunyikan]** untuk mempermudah komunikasi apabila ada informasi tambahan
 
-<div>Terimakasih atas perhatiannya</div>
+Terlampir daftar peserta training guru, silahkan mengkoordinir sendiri bagi yang ingin berangkat bersama.
 
-Salam,</div>
+Terimakasih atas perhatiannya
 
-<span style="background-color: white; color: #222222; font-family: &quot;arial&quot; , sans-serif; font-size: 12.8px;">Ayu</span>  
+Salam,
+
+Ayu  
 
 Saya dapat email itu saat saya sedang di sekolah. Langsung saya tunjukkan ke Waka Kurikulum dan Kajur TKJ. Baik Waka Kurikulum maupun Kajur TKJ sama-sama mempersilakan untuk mengikuti kegiatan tersebut. Namun entah dengan pak kepsek.  
 
@@ -73,7 +74,7 @@ Ada beberapa solusi sebenarnya, yang pertama saya beli, yang kedua pinjam. Kalau
 
 Sekolah sebenarnya punya 3 RouterBoard, 2 di antaranya RB750, dan satu RB941\. RB941 sudah dibawa anak-anak untuk PKL/Prakerin ke BLC Telkom Klaten. Satu unit RB750 sedang digunakan di sekolah, jadi yang saya pegang adalah RB750 satunya lagi. Nah, untungnya ada almi SMK yang baru beli RB941 yang baru juga dipasang di rumahnya.  
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://4.bp.blogspot.com/-kidQr81NOmE/WHX7oT7zDpI/AAAAAAAAPX8/KN6YpmdEEdYWljoDR17Elb8zPzczremNwCLcB/s320/menuju-IDN.jpg)](https://4.bp.blogspot.com/-kidQr81NOmE/WHX7oT7zDpI/AAAAAAAAPX8/KN6YpmdEEdYWljoDR17Elb8zPzczremNwCLcB/s1600/menuju-IDN.jpg)</div>
+[![](https://4.bp.blogspot.com/-kidQr81NOmE/WHX7oT7zDpI/AAAAAAAAPX8/KN6YpmdEEdYWljoDR17Elb8zPzczremNwCLcB/s320/menuju-IDN.jpg)](https://4.bp.blogspot.com/-kidQr81NOmE/WHX7oT7zDpI/AAAAAAAAPX8/KN6YpmdEEdYWljoDR17Elb8zPzczremNwCLcB/s1600/menuju-IDN.jpg)
 
 Saya pun meminta izin untuk meminjamnya, dan untuk sementara ditukar dengan RB yang ada di saya. Nah, karena di rumah Eri juga butuh Access Point, saya pun akhirnya meminjam AP yang ada di sekolah untuk dipinjamkan kembali ke Eri. Nantinya setelah training akan dikembalikan. Oke, problem solve.  
 
@@ -85,7 +86,7 @@ Nah, yang berikutnya pengalaman naik taksi online yang cukup berkesan buat saya,
 
 Buka aplikasi, tentukan lokasi tujuan, lalu beberapa detik berikutnya langsung ada telepon masuk. "Halo, pak samsul. Mau dijemput di mana?" suara dari ujung telepon. "Saya di pool bis sinar jaya pak," jawab saya. Selanjutnya pak sopir yang bernama Solehan mengarahkan saya untuk menuju pos polisi yang tak jauh dari situ. Beliau akan menunggu di belakang pos tersebut.  
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://1.bp.blogspot.com/-_OZj3vfXMG8/WHYgSFQYGxI/AAAAAAAAPYs/1aZH8bmd9MYiAkGetDwn32tju_v-aw0AQCLcB/s320/smk-madinatul-ilmi-bogor.jpg)](https://1.bp.blogspot.com/-_OZj3vfXMG8/WHYgSFQYGxI/AAAAAAAAPYs/1aZH8bmd9MYiAkGetDwn32tju_v-aw0AQCLcB/s1600/smk-madinatul-ilmi-bogor.jpg)</div>
+[![](https://1.bp.blogspot.com/-_OZj3vfXMG8/WHYgSFQYGxI/AAAAAAAAPYs/1aZH8bmd9MYiAkGetDwn32tju_v-aw0AQCLcB/s320/smk-madinatul-ilmi-bogor.jpg)](https://1.bp.blogspot.com/-_OZj3vfXMG8/WHYgSFQYGxI/AAAAAAAAPYs/1aZH8bmd9MYiAkGetDwn32tju_v-aw0AQCLcB/s1600/smk-madinatul-ilmi-bogor.jpg)
 
 Tak kurang dari dua jam dari pool bis sinar jaya Cibitung, Bekasi menuju SMK IDN Madinatul Ilmi (Madinatul Qur'an). Perjalanan pun cukup berliku, meninggalkan kesan tersendiri bagi sopir yang memiliki tiga orang anak ini.  
 

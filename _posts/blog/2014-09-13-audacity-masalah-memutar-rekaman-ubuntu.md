@@ -3,6 +3,7 @@ layout: post
 title: Audacity Masalah Memutar Rekaman Ubuntu 14.04
 date: '2014-09-13T03:29:00.000+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Linux
 - synaptic
@@ -25,26 +26,26 @@ Penyebabnya ternyata adalah karena paket audacity untuk Ubuntu [tidak dikompilas
 
 Buka Manajer Paket Synaptic, klik menu `pengaturan` --> `repositori` --> klik tab `pemutakhiran` :  
 
-<div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-_wjAmDi0JaQ/VBNPT5w5U2I/AAAAAAAADB4/47L4yjwoyYo/s640/update-audacity-1.png)](http://1.bp.blogspot.com/-_wjAmDi0JaQ/VBNPT5w5U2I/AAAAAAAADB4/47L4yjwoyYo/s1600/update-audacity-1.png)</div>
+[![](http://1.bp.blogspot.com/-_wjAmDi0JaQ/VBNPT5w5U2I/AAAAAAAADB4/47L4yjwoyYo/s640/update-audacity-1.png)](http://1.bp.blogspot.com/-_wjAmDi0JaQ/VBNPT5w5U2I/AAAAAAAADB4/47L4yjwoyYo/s1600/update-audacity-1.png)
 
 Selanjutnya reload synaptic dengan menekan tombol `Muat ulang`. Cara tersebut juga dapat dilakukan dengan mengetikkan perintah berikut di terminal :  
 
-<pre>$ sudo vim /etc/apt/sources.list</pre>
+$ sudo vim /etc/apt/sources.list
 
 Tambahkan baris berikut pada berkas tersebut :  
 
-<pre>deb http://kambing.ui.ac.id/ubuntu/ trusty-updates main restricted universe multiverse</pre>
+deb http://kambing.ui.ac.id/ubuntu/ trusty-updates main restricted universe multiverse
 
 Reload basisdata APT dengan mengetikkan perintah :
 
-<pre>$ sudo aptitude update</pre>
+$ sudo aptitude update
 
 Nah, selanjutnya (jika proses update telah selesai) tinggal menginstall audacity versi terbaru. Oiya, saya lupa menyebutkan versi yang bermasalah adalah `2.0.5-1ubuntu3`. Dan saya akan menginstall versi `2.0.5-1ubuntu3.2` yang merupakan versi perbaikan dari yang sebelumnya (lihat; perbedaan pada *.2 di bagian akhir). Install audacity dengan perintah :
 
-<pre>$ sudo aptitude install audacity</pre>
+$ sudo aptitude install audacity
 
 Atau jika menggunakan Synaptic ketikkan `audacity` pada kotak pencarian lalu tekan ENTER. Setelah nampak paket audacity akan nampak bahwa telah tersedia versi terbarunya. Klik kanan, pilih tandai untuk diperbarui, klik tombol `Terapkan`, klik tombol `Terapkan` lagi pada dialog yang muncul untuk mengonfirmasi instalasi.  
 
-<div class="separator" style="clear: both; text-align: center;">[![](http://1.bp.blogspot.com/-dt5GOiaaB4M/VBNVv6tHHaI/AAAAAAAADCE/YztdylvdCR0/s640/update-audacity-4.png)](http://1.bp.blogspot.com/-dt5GOiaaB4M/VBNVv6tHHaI/AAAAAAAADCE/YztdylvdCR0/s1600/update-audacity-4.png)</div>
+[![](http://1.bp.blogspot.com/-dt5GOiaaB4M/VBNVv6tHHaI/AAAAAAAADCE/YztdylvdCR0/s640/update-audacity-4.png)](http://1.bp.blogspot.com/-dt5GOiaaB4M/VBNVv6tHHaI/AAAAAAAADCE/YztdylvdCR0/s1600/update-audacity-4.png)
 
 Akhirnya audacity saya kini sudah dapat untuk mengimpor berkas *.amr (dan berkas dengan format lainnya, *.ac3, *.wma, *.m4a, *.opus, ...). Catatan: selama proses update sebaiknya tutup dulu aplikasi yang akan diupdate. Hal ini untuk menghidari crash pada aplikasi maupun data yang sedang diproses. Sekian catatan saya kali ini. Semoga bermanfaat.

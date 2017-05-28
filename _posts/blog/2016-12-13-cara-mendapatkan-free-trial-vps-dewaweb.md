@@ -3,6 +3,7 @@ layout: post
 title: Cara Mendapatkan Free Trial VPS Dewaweb 30 Hari
 date: '2016-12-13T02:56:00.001+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Linux
 - Server
@@ -23,7 +24,7 @@ Melalui formulir yang disediakan oleh dewaweb, saya mengajukan permohonan trial 
 
 [https://www.dewaweb.com/cloud-server-for-power-users/](https://www.dewaweb.com/cloud-server-for-power-users/)  
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://3.bp.blogspot.com/-TCmDFiJbZPE/WE79EtXf-mI/AAAAAAAAOIc/wdBUezQCPm0i85k975fIQWKcwiuFJ4C5wCLcB/s320/formulir-free-trial-VPS-dewaweb.png)](https://3.bp.blogspot.com/-TCmDFiJbZPE/WE79EtXf-mI/AAAAAAAAOIc/wdBUezQCPm0i85k975fIQWKcwiuFJ4C5wCLcB/s1600/formulir-free-trial-VPS-dewaweb.png)</div>
+[![](https://3.bp.blogspot.com/-TCmDFiJbZPE/WE79EtXf-mI/AAAAAAAAOIc/wdBUezQCPm0i85k975fIQWKcwiuFJ4C5wCLcB/s320/formulir-free-trial-VPS-dewaweb.png)](https://3.bp.blogspot.com/-TCmDFiJbZPE/WE79EtXf-mI/AAAAAAAAOIc/wdBUezQCPm0i85k975fIQWKcwiuFJ4C5wCLcB/s1600/formulir-free-trial-VPS-dewaweb.png)
 
 Yang perlu diperhatikan saat mengisi formulir adalah, email yang digunakan harus menggunakan domain custom (email perusahaan atau email pribadi dengan domain sendiri). Bukan email gratisan seperti gmail, atau yahoo.  
 
@@ -31,6 +32,6 @@ Scan/foto KTP juga diminta saat mengisi formulir, untuk keperluan verifikasi pih
 
 Oiya, server yang saya minta adalah server Jakarta, namun pihak Dewaweb mengatakan saat itu sumberdaya belum tersedia. Server Jakarta baru akan tersedia seminggu kemudian. Akhirnya, saya mendapatkan VPS Gratis yang lokasi fisiknya berada di Singapura dengan spesifikasi sebagai berikut:  
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://1.bp.blogspot.com/-p39CMic7-4U/WE8Aypyu5UI/AAAAAAAAOIk/K3Cf68Z9dlsTtLu9WEc-Uz_mwovkecx_gCLcB/s320/spesifikasi-VPS-gratis-Dewaweb.png)](https://1.bp.blogspot.com/-p39CMic7-4U/WE8Aypyu5UI/AAAAAAAAOIk/K3Cf68Z9dlsTtLu9WEc-Uz_mwovkecx_gCLcB/s1600/spesifikasi-VPS-gratis-Dewaweb.png)</div>
+[![](https://1.bp.blogspot.com/-p39CMic7-4U/WE8Aypyu5UI/AAAAAAAAOIk/K3Cf68Z9dlsTtLu9WEc-Uz_mwovkecx_gCLcB/s320/spesifikasi-VPS-gratis-Dewaweb.png)](https://1.bp.blogspot.com/-p39CMic7-4U/WE8Aypyu5UI/AAAAAAAAOIk/K3Cf68Z9dlsTtLu9WEc-Uz_mwovkecx_gCLcB/s1600/spesifikasi-VPS-gratis-Dewaweb.png)
 
 Bagaimana, Anda tertarik mencoba?

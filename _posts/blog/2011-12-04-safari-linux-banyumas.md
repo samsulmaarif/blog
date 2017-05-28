@@ -3,6 +3,7 @@ layout: post
 title: Safari Linux Banyumas
 date: '2011-12-04T17:45:00.132+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Linux Banyumas
 - Linux Sidareja

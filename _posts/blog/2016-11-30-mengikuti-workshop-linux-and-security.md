@@ -3,6 +3,7 @@ layout: post
 title: Mengikuti Workshop Linux and Security di ST3Telkom Purwokerto
 date: '2016-11-30T11:37:00.000+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Purwokerto
 - Linux
@@ -15,7 +16,7 @@ blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-70396638941810802
 blogger_orig_url: http://blog.samsul.web.id/2016/11/mengikuti-workshop-linux-and-security.html
 ---
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://3.bp.blogspot.com/-L8TlHtRQHis/WD5YsNYs6sI/AAAAAAAANdk/eAKY7dMH-VY2og3Dd4fiGxvft_sPO7qYQCLcB/s320/tanya-jawab-workshop-linux.png)](https://3.bp.blogspot.com/-L8TlHtRQHis/WD5YsNYs6sI/AAAAAAAANdk/eAKY7dMH-VY2og3Dd4fiGxvft_sPO7qYQCLcB/s1600/tanya-jawab-workshop-linux.png)</div>
+[![](https://3.bp.blogspot.com/-L8TlHtRQHis/WD5YsNYs6sI/AAAAAAAANdk/eAKY7dMH-VY2og3Dd4fiGxvft_sPO7qYQCLcB/s320/tanya-jawab-workshop-linux.png)](https://3.bp.blogspot.com/-L8TlHtRQHis/WD5YsNYs6sI/AAAAAAAANdk/eAKY7dMH-VY2og3Dd4fiGxvft_sPO7qYQCLcB/s1600/tanya-jawab-workshop-linux.png)
 
 Ah, lama juga blog ini terbengkalai tak terurus. Sekarang saya lebih banyak oprek web/blog orang daripada mengurus blog sendiri. hahahaha.... Nah, kali ini saya cuma mau sharing tentang acara yang baru-baru ini saya ikuti.  
 
@@ -31,8 +32,8 @@ Berikut ini catatan yang dibuat oleh pemateri :
 
 Dan berikut daftar putar video acaranya.  
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/videoseries?list=PL7-xLuHP4DbNFTg61gJqYSiXEc8v_6L6T" width="560" height="315" frameborder="0"></iframe>  
+  
 
 Gimana? sudah nonton? seru kan acaranya? Ada demo hacking, ada tanya jawab, dan lain-lain. Eh, ada live perform juga lho dari UKM Musik St3Telkom Purwokerto :  
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/videoseries?list=PL7-xLuHP4DbPAVU2jOBzkNXF1M81Ehro_" width="560" height="315" frameborder="0"></iframe>">
+">

@@ -3,6 +3,7 @@ layout: post
 title: Download Video di Youtube dengan Google Chrome atau Chromium di BlankOn
 date: '2011-10-31T00:57:00.001+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - video
 - Download

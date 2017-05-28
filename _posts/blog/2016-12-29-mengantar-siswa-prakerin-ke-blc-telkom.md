@@ -3,6 +3,7 @@ layout: post
 title: Mengantar Siswa Prakerin ke BLC Telkom Klaten
 date: '2016-12-29T02:10:00.000+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - ayo belajar linux
 - BLC Telkom Klaten
@@ -15,11 +16,11 @@ blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-67183185058884121
 blogger_orig_url: http://blog.samsul.web.id/2016/12/mengantar-siswa-prakerin-ke-blc-telkom.html
 ---
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://2.bp.blogspot.com/-0aBg-4BTtiM/WGQMTZyZ7zI/AAAAAAAAO8I/wMSpV4ct_qY4YORqRun6W8EoPFk9wHT1wCKgB/s320/IMG_20161225_101331.jpg)](https://2.bp.blogspot.com/-0aBg-4BTtiM/WGQMTZyZ7zI/AAAAAAAAO8I/wMSpV4ct_qY4YORqRun6W8EoPFk9wHT1wCKgB/s1600/IMG_20161225_101331.jpg)</div>
+[![](https://2.bp.blogspot.com/-0aBg-4BTtiM/WGQMTZyZ7zI/AAAAAAAAO8I/wMSpV4ct_qY4YORqRun6W8EoPFk9wHT1wCKgB/s320/IMG_20161225_101331.jpg)](https://2.bp.blogspot.com/-0aBg-4BTtiM/WGQMTZyZ7zI/AAAAAAAAO8I/wMSpV4ct_qY4YORqRun6W8EoPFk9wHT1wCKgB/s1600/IMG_20161225_101331.jpg)
 
 Cerita ini bermula ketika saya mengikuti diklat IT Ayo Guru Bisa yang diselenggarakan oleh BLC Telkom Klaten. Saya mengikuti gelombang terakhir, yaitu gelombang 8, mulai tanggal 8 hingga 13 Agustus 2016.  
 
-Selama mengikuti diklat, saya benar-benar merasakan bahwa di BLC Klaten ini adalah gudangnya ilmu IT. Bagaimana tidak, dari luar ruangan, di setiap ruangan, dari pagi, sampai malam, sampe pagi lagi, yang ada adalah orang-orang yang sedang belajar ilmu IT. <del>Dari anak-anak prakerin, orang-orang magang, bahkan siapapun yang di sana seperti orang yang haus ilmu.</del>  
+Selama mengikuti diklat, saya benar-benar merasakan bahwa di BLC Klaten ini adalah gudangnya ilmu IT. Bagaimana tidak, dari luar ruangan, di setiap ruangan, dari pagi, sampai malam, sampe pagi lagi, yang ada adalah orang-orang yang sedang belajar ilmu IT. Dari anak-anak prakerin, orang-orang magang, bahkan siapapun yang di sana seperti orang yang haus ilmu.  
 
 Pulang dari sana, saya sampaikan pada teman-teman guru TKJ, bahkan pada kepala sekolah, bahwa saya ingin ada siswa SMKTIKA yang dikirim ke sana. Beberapa teman menyambut baik niat saya, lainnya tidak paham. Sampai pada akhirnya, rencana ini disetujui oleh KaJur (Kepala Jurusan) dan Kepala Sekolah.  
 

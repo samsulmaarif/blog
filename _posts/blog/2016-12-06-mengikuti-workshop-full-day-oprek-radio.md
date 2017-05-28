@@ -3,6 +3,7 @@ layout: post
 title: Mengikuti Workshop full day Oprek Radio Wireless
 date: '2016-12-06T16:49:00.001+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Onno W Purbo
 - Linux
@@ -16,7 +17,7 @@ blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-36353771692694122
 blogger_orig_url: http://blog.samsul.web.id/2016/12/mengikuti-workshop-full-day-oprek-radio.html
 ---
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://1.bp.blogspot.com/-mhBfRRi-dvI/WEYfFOZUJHI/AAAAAAAANvk/DA3VLEspfRYrF4FamFrHPvfbLH8A-pwlACEw/s1600/full-day-oprek-radio-wireless-onno-w-purbo.jpg)](https://1.bp.blogspot.com/-mhBfRRi-dvI/WEYfFOZUJHI/AAAAAAAANvk/DA3VLEspfRYrF4FamFrHPvfbLH8A-pwlACEw/s1600/full-day-oprek-radio-wireless-onno-w-purbo.jpg)</div>
+[![](https://1.bp.blogspot.com/-mhBfRRi-dvI/WEYfFOZUJHI/AAAAAAAANvk/DA3VLEspfRYrF4FamFrHPvfbLH8A-pwlACEw/s1600/full-day-oprek-radio-wireless-onno-w-purbo.jpg)](https://1.bp.blogspot.com/-mhBfRRi-dvI/WEYfFOZUJHI/AAAAAAAANvk/DA3VLEspfRYrF4FamFrHPvfbLH8A-pwlACEw/s1600/full-day-oprek-radio-wireless-onno-w-purbo.jpg)
 
 Pengalaman yang menarik, dan tentunya tak akan terlupakan. Hari Minggu, 4 Desember 2016 siang, saya bergegas menuju Brebes, tepatnya ke SMK Wicaksana Al Hikmah, Sirampog. Naik motor, sendirian, dengan bantuan navigator google maps yang terpasang di stang motor.  
 
@@ -26,29 +27,29 @@ Pergi ke suatu tempat dengan memanfaatkan navigator GPS mungkin bukan sekali ata
 
 Berangkat dari Sidareja sekitar pukul 13:00 WIB, sampai di SMK Wicaksana sekitar pukul 15:30 Waktu setempat. Kemudian malamnya saya menginap di kamar khusus tamu di ponpes Al-Hikmah 2\. Kamar ini biasanya untuk menginap tamu, wali santri yang menjenguk anaknya. Tempatnya cukup representatif, ada bantal, ada tikar dan kamar mandi di dalam.  
 
-> <div style="padding: 8px;">
 > 
-> <div style="margin: 8px 0 0 0; padding: 0 4px;">[Merasakan suasana #pondokpesantren di sini. Pikiran kembali ke tahun 2005-2006 saat masih nyantri......](https://www.instagram.com/p/BNl_jXFh9BG/)</div>
 > 
-> <div style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">Foto kiriman Samsul Ma'arif (@samsul.web.id) pada <time datetime="2016-12-04T11:31:36+00:00" style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;">Des 4, 2016 pada 3:31 PST</time></div>
+> [Merasakan suasana #pondokpesantren di sini. Pikiran kembali ke tahun 2005-2006 saat masih nyantri......](https://www.instagram.com/p/BNl_jXFh9BG/)
 > 
-> </div>
+> Foto kiriman Samsul Ma'arif (@samsul.web.id) pada Des 4, 2016 pada 3:31 PST
+> 
+> 
 
 Hanya satu yang membut saya tak berkutik di sini, yaitu colokan listrik yang tersedia tidak berfungsi. Walhasil, saya hanya dapat membuka laptop beberapa menit saja. Setelah itu, laptop istirahat sampai esok hari.  
 
 Oiya, ada hal menarik di sini yang dapat dibaca di caption postingan IG saya :  
 
-> <div style="padding: 8px;">
 > 
-> <div style="margin: 8px 0 0 0; padding: 0 4px;">[Kebiasaan cah pondok #ghosob (memakai benda {biasanya sandal} milik orang lain tanpa izin) mengharuskan saya beli sandal baru. Sandal sebelumnya juga merupakan sandal "liruan" karena sandal saya di-ghosob saat berkunjung di ponpes rubat tambaksari, kedungreja. Ah, yang pernah mondok pasti pernah mengalami hal serupa.](https://www.instagram.com/p/BNmTXe3BvLq/)</div>
 > 
-> <div style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;">Foto kiriman Samsul Ma'arif (@samsul.web.id) pada <time datetime="2016-12-04T14:24:44+00:00" style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;">Des 4, 2016 pada 6:24 PST</time></div>
+> [Kebiasaan cah pondok #ghosob (memakai benda {biasanya sandal} milik orang lain tanpa izin) mengharuskan saya beli sandal baru. Sandal sebelumnya juga merupakan sandal "liruan" karena sandal saya di-ghosob saat berkunjung di ponpes rubat tambaksari, kedungreja. Ah, yang pernah mondok pasti pernah mengalami hal serupa.](https://www.instagram.com/p/BNmTXe3BvLq/)
 > 
-> </div>
+> Foto kiriman Samsul Ma'arif (@samsul.web.id) pada Des 4, 2016 pada 6:24 PST
+> 
+> 
 
 Singkat cerita, hari berikutnya saya mengikuti workshop tersebut. Acara dimulai pukul 08:35, dibuka oleh ketua panitia, lalu sambutan oleh kepala SMK Wicaksana (::) dan berikut video sambutan dari pak [Onno](http://lms.onnocenter.or.id/wiki/) :  
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/HAp1Ab7n-Io?list=PL7-xLuHP4DbOfCVSZBgU89W1J5aWhsNk1" width="560" height="315" frameborder="0"></iframe>  
+  
 
 Menurut pak Onno, Indonesia telah menjadi contoh bagi negara-negara di dunia tentang bagaimana membuat internet murah. Oleh karena itu, beliau ingin membagi ilmunya kepada MGMP-MGMP (para guru) supaya para guru ini dapat mengajarkan kepada muridnya tentang bagaimana membangun internet murah.  
 
@@ -64,25 +65,25 @@ Saya sendiri, ini merupakan kali ke-3 saya bertemu dengan pak Onno. Sebelumnya, 
 
 Yang ke-2, saya kembali bertemu pak Onno di Beltim (Belitung Timur) saat mengikuti Festival Desa TIK tahun 2015\. Saat itu, bupati Beltim adalah adik Ahok, yaitu Basuri Tjahaja Purnama. Belakangan saya dengar beliau tak terpilih kembali setelah menyalonkan diri untuk periode ke-2\. Nah, di Beltim pak Onno mengajarkan bagaimana menyambungkan internet antar-pulau.  
 
-<table class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;" cellspacing="0" cellpadding="0">
 
-<tbody>
 
-<tr>
 
-<td style="text-align: center;">[![](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s320/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s1600/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)</td>
 
-</tr>
 
-<tr>
 
-<td class="tr-caption" style="text-align: center;">Wuasana workshop saat istirahat</td>
+[![](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s320/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)](https://4.bp.blogspot.com/-0E_eIOUWgo0/WEaHyH_84PI/AAAAAAAANv0/Iv_fusjbCTU4deyE8Lmm3dUQkqIhg2WPwCLcB/s1600/setelah-istirahat-full-day-oprek-radio-wireless-brebes.jpg)
 
-</tr>
 
-</tbody>
 
-</table>
+
+
+Wuasana workshop saat istirahat
+
+
+
+
+
+
 
 Menurut saya, pengalaman belajar secara langsung dengan pak Onno adalah pengalaman yang luar biasa. Bagaimana tidak, beliau adalah orang yang hebat. Salah satu kontribusi besar beliau yang dirasakan manfaatnya oleh jutaan orang Indonesia adalah [dibebaskannya frekuensi 2,4 Ghz](http://lms.onnocenter.or.id/wiki/index.php/Sejarah_Internet_Indonesia:Pembebasan_Frekuensi_2.4Ghz).  
 
@@ -93,7 +94,7 @@ Pak Onno juga menceritakan tentang OpenBTS satu-satunya yang "running" di papua.
 Ada sesi sharing beberapa saat, saya mendengarkan banyak cerita dari pak Onno. Termasuk cerita tentang salah seorang mahasiswanya yang pernah makan temannya sendiri. Dan cerita-cerita lain, pengalaman beliau mengajar anak-anak papua. Ah, terlalu banyak yang beliau ceritakan hingga saya tak mampu untuk menulisnya semua.  
 Berdasarkan jadwal, workshop akan berakhir saat maghrib. Namun ternyata selesai lebih cepat, yaitu sekitar pukul 15:00\. Tadinya, saya hendak menginap semalam lagi di sana. Sempat bingung juga, apakah mau langsung pulang atau menginap lagi. Mengingat cuaca hujan, dan kalau malam pasti gelap. 😁😀😂  
 
-<div class="separator" style="clear: both; text-align: center;">[![](https://1.bp.blogspot.com/-ADR2F5snzgs/WEaJTVk7ywI/AAAAAAAANwE/BoFzEiWMMrkozY4s049NI90IUAJ-gki2QCLcB/s320/navigasi-3-jam-perjalanan-brebes.jpg)](https://1.bp.blogspot.com/-ADR2F5snzgs/WEaJTVk7ywI/AAAAAAAANwE/BoFzEiWMMrkozY4s049NI90IUAJ-gki2QCLcB/s1600/navigasi-3-jam-perjalanan-brebes.jpg)</div>
+[![](https://1.bp.blogspot.com/-ADR2F5snzgs/WEaJTVk7ywI/AAAAAAAANwE/BoFzEiWMMrkozY4s049NI90IUAJ-gki2QCLcB/s320/navigasi-3-jam-perjalanan-brebes.jpg)](https://1.bp.blogspot.com/-ADR2F5snzgs/WEaJTVk7ywI/AAAAAAAANwE/BoFzEiWMMrkozY4s049NI90IUAJ-gki2QCLcB/s1600/navigasi-3-jam-perjalanan-brebes.jpg)
 
 Pada akhirnya, setelah sholat Ashar (yaitu pukul 16:06) saya putuskan untuk pulang. Naik motor, memakai mantel dan memanfaatkan GPS untuk pulang. Alhamdulillah, sempat nyasar saat masih di Brebes dan ponsel sempat ngedrop juga. Kabar baiknya, saya membawa Power Bank berkapasitas 20000 MAh.  
 

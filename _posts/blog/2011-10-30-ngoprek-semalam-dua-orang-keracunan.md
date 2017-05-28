@@ -3,6 +3,7 @@ layout: post
 title: Ngoprek Semalam, Dua Orang Keracunan
 date: '2011-10-30T09:29:00.000+07:00'
 author: Go-Blog
+categories: blog
 tags: 
 modified_time: '2011-10-31T00:44:34.928+07:00'
 thumbnail: https://lh4.googleusercontent.com/-xUEySPYDukg/TqxvopllzuI/AAAAAAAAAPI/KPZdU0h0-tI/s72-c/DSC02480.JPG

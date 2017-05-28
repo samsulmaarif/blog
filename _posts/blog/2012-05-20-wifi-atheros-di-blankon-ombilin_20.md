@@ -3,6 +3,7 @@ layout: post
 title: Wifi Atheros di BlankOn Ombilin
 date: '2012-05-20T06:02:00.002+07:00'
 author: Samsul Maarif
+categories: blog
 tags: 
 modified_time: '2012-05-20T11:42:00.676+07:00'
 blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-4445911564195376851

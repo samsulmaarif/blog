@@ -3,6 +3,7 @@ layout: post
 title: Desktop Freeze Setelah Mengaktifkan WiFi
 date: '2012-06-17T15:45:00.001+07:00'
 author: Samsul Maarif
+categories: blog
 tags:
 - Tutorial
 modified_time: '2012-06-17T16:26:17.943+07:00'
@@ -18,14 +19,14 @@ Setelah gugling saya menemukan solusinya di [wiki.archlinux.org](https://wiki.ar
 
 Edit berkas /etc/modprobe.d/blacklist.conf
 
-<pre>sudo gedit /etc/modprobe.d/blacklist.conf  
-</pre>
+sudo gedit /etc/modprobe.d/blacklist.conf  
+
 
 tambahkan baris berikut :
 
-<pre>blacklist acer-wmi  
+blacklist acer-wmi  
 blacklist bcma  
-</pre>
+
 
 Simpan berkas tersebut, lalu restart.  
 

@@ -3,6 +3,7 @@ layout: post
 title: Install MitraDesa 2.0 di Ubuntu Server 14.04 (Webmin   Virtualmin)
 date: '2015-03-08T23:08:00.001+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags: 
 modified_time: '2015-03-08T23:08:12.313+07:00'
 thumbnail: https://img.youtube.com/vi/Su9dELQnomU/default.jpg
@@ -22,4 +23,4 @@ Seluruh hak cipta perangkat lunak yang saya gunakan di sini berada pada masing-m
 
 Demikian, semoga bermanfaat.  
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/Su9dELQnomU" width="459" height="344" frameborder="0"></iframe>
+

@@ -3,6 +3,7 @@ layout: post
 title: Laptop Access Point non Ad-Hoc
 date: '2014-08-25T13:22:00.001+07:00'
 author: Samsul Ma'arif
+categories: blog
 tags:
 - Access Point
 - Linux
