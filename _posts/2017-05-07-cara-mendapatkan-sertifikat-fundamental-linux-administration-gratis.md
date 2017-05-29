@@ -7,7 +7,8 @@ categories: blog
 tags:
 - Linux
 - Sertifikat
-bigimg: "/img/festival-destika-2015.jpg"
+bigimg: 
+- "/img/festival-destika-2015.jpg" : "Pantai Tanjung Tinggi, Belitung Timur (2015)"
 thumbnail: /img/sertifikat-fundamental-linux-administration.png
 ---
 
