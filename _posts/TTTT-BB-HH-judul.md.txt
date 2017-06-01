@@ -1,0 +1,12 @@
+---
+layout: post
+title: Judul
+date: '2017-xx-xx'
+author: Samsul Maarif
+categories: blog
+tags:
+- Linux
+bigimg: 
+  - "/img/*.jpg" : ""
+share-img: "/img/*.jpg"
+---

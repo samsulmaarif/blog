@@ -9,7 +9,7 @@ tags:
 - Sertifikat
 bigimg: 
 - "/img/festival-destika-2015.jpg" : "Pantai Tanjung Tinggi, Belitung Timur (2015)"
-thumbnail: /img/sertifikat-fundamental-linux-administration.png
+share-img: "/img/sertifikat-fundamental-linux-administration.png"
 ---
 
 ![Sertifikat Fundamental Linux Administration](/img/sertifikat-fundamental-linux-administration.png "Sertifikat Fundamental Linux Administration")
@@ -42,6 +42,7 @@ Di sebuah grup WhatsApp, saya sempat sharing tentang cara mendapatkan sertifikat
 
 ## Catatan: 
 - Saya hanya berbagi dan tidak menyediakan konsultasi seputar materi seputar Cybrary dan course-nya, maupun soal, apalagi jawaban. Jadi, untuk hal ini silakan dipelajari dan dicari sendiri.
+- Kode kupon **hanya berlaku 1 kali** pemakaian. 
 - Sertifikat akan keluar jika Anda berhasil mendapatkan nilai minimal 70%, 
 - Sertifikat **tidak** dikirim ke email, melainkan akan muncul di halaman web dalam bentuk PDF. 
 - Oiya, pastikan Anda juga mengisi **Nama Lengkap** Anda di halaman profil, karena nama itu yang akan tercetak di sertifikat.
@@ -49,3 +50,4 @@ Di sebuah grup WhatsApp, saya sempat sharing tentang cara mendapatkan sertifikat
 - tombol, menu, maupun teks mungkin berbeda saat Anda mencoba. Karena saya menulis ini berdasarkan apa yang saya ingat.
 - Semoga bermanfaat.
 - Mohon maaf jika ada yang kurang berkenan.
+
