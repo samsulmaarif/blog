@@ -15,7 +15,7 @@ bigimg:
 share-img: "/img/workshop-server-website-desa.jpg"
 ---
 
-VCS atau Version Control System adalah sebuah perangkat lunak yang biasa digunakan untuk mencaat setiap perubahan pada kode sumber sebuah aplikasi. Ini merupakan peralatan wajib bagi seorang programmer, atau pengembang aplikasi. Beberapa VCS yang bernah saya coba pakai adalah [Bazaar](http://bazaar.canonical.com/) dan [Git](http://git-scm.com). Lainnya ada [Mercurial](https://www.mercurial-scm.org/), [Subversion](), dll selebihnya dapat dibaca di [CodePolitan](https://www.codepolitan.com/10-version-control-system-yang-harus-kamu-kenal) ya.... 
+VCS atau Version Control System adalah sebuah perangkat lunak yang biasa digunakan untuk mencaat setiap perubahan pada kode sumber sebuah aplikasi. Ini merupakan peralatan wajib bagi seorang programmer, atau pengembang aplikasi. Beberapa VCS yang bernah saya coba pakai adalah [Bazaar](http://bazaar.canonical.com/) dan [Git](http://git-scm.com). Lainnya ada [Mercurial](https://www.mercurial-scm.org/), [Subversion](https://subversion.apache.org/), dll selebihnya dapat dibaca di [CodePolitan](https://www.codepolitan.com/10-version-control-system-yang-harus-kamu-kenal) ya.... 
 
 Bazaar merupakan VCS yang disponsori oleh [Cannonical Ltd.](http://www.canonical.com/) yang dipakai untuk pengembangan sistem operasi Ubuntu, lebih spesifiknya untuk mengelola kode sumber aplikasi-aplikasi yang dikelola di [launchpad.net](https://launchpad.net). Bazaar juga digunakan oleh tim pengembang [BlankOn Linux](http://dev.blankonlinux.or.id) untuk mengelola kode sumber untuk pemaketan aplikasi pada lumbungnya. 
 
