@@ -11,7 +11,7 @@ tags:
 - BlankOn
 - Installer
 modified_time: '2017-01-18T02:12:12.476+07:00'
-share-img: https://3.bp.blogspot.com/-me0A3AC5HXA/WH5pVjveGFI/AAAAAAAAQE0/xWhKPUn-MWUqE-GEmMMrZxI9130MdbtOQCLcB/s72-c/blankon.png
+thumbnail: https://3.bp.blogspot.com/-me0A3AC5HXA/WH5pVjveGFI/AAAAAAAAQE0/xWhKPUn-MWUqE-GEmMMrZxI9130MdbtOQCLcB/s72-c/blankon.png
 blogger_id: tag:blogger.com,1999:blog-1383767785423682157.post-7312796844235598279
 blogger_orig_url: http://blog.samsul.web.id/2017/01/cara-membuat-usb-installer-blankon-x.html
 ---

@@ -10,7 +10,7 @@ tags:
 - VCS
 bigimg: 
   - "/img/dbs-episode-80-an.jpg" : "Dragonball Super (2017)"
-share-img: "http://blog.samsul.web.id/img/dbs-episode-80-an.jpg"
+share-img: "/img/dbs-episode-80-an.jpg"
 ---
 
 Halo pembaca, kali ini saya akan menuliskan sekilat tentang Version Control System (VCS) favorit saya; Git. Ya, Git adalah salah satu dari VCS yang banyak digunakan oleh para developer. Git itu sendiri dibuat oleh orang yang sama pembuat Kernel Linux. Yup, beliau adalah pak [Linus Torvalds](https://plus.google.com/+LinusTorvalds). 
