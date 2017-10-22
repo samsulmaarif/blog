@@ -5,7 +5,7 @@ locale: id_ID
 description: Catatan kecil pengguna Linux.
 search: true
 timezone: Asia/Jakarta
-url: http://blog.samsul.web.id
+url: https://blog.samsul.web.id
 
 # --- Navigation bar options --- #
 
@@ -16,6 +16,7 @@ navbar-links:
     - PenaDesa: "http://penadesa.or.id/"
     - MigrasiLinux: "http://www.migrasilinux.or.id/"
     - Daunsalam: "http://daunsalam.samsul.web.id/"
+    - BlankOn Malang: "http://malang.di.blankon.in"
   Wiki: "http://wiki.samsul.web.id"
 
 # Image to show in the navigation bar - image must be a square (width = height)
