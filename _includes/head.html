@@ -13,7 +13,7 @@
 
   <link rel="shortcut icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml" />
 
   {% include force_https.html %}
 
@@ -118,7 +118,7 @@
   {% endif %}
 
   {% if page.share-img %}
-  <meta name="twitter:image" content="{{ page.share-img }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ page.share-img }}" />
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
