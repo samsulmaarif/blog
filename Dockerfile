@@ -1,6 +1,8 @@
 FROM mangar/jekyll:1.0
 
-MAINTAINER Marcio Mangar "marcio.mangar@gmail.com"
+LABEL blog v2017.10
+
+MAINTAINER Samsul Maarif "hay@samsul.web.id"
 
 RUN gem install jekyll -v 3.1.6
 RUN gem install bundler
@@ -34,11 +36,11 @@ RUN gem install github-pages -v 82
 
 
 
-RUN mkdir -p /app
-ADD ./ /app
+RUN mkdir -p /blog
+ADD ./ /blog
 
-WORKDIR /app
+WORKDIR /blog
 
 EXPOSE 4000
 
-CMD bundle exec jekyll serve
+CMD bundle exec jekyll serve --incremental
