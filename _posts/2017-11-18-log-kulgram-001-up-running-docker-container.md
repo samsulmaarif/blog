@@ -32,7 +32,7 @@ Oke, saya kira cukup perkenalan dari saya. Selanjutnya saya akan langsung masuk 
 Ada yang belum tau apa itu Container? 
 
 
-MATERI & PRAKTEK :
+## MATERI & PRAKTEK :
 + Mengenal Docker Container
 
 [Logo Docker]
@@ -135,10 +135,12 @@ $ sudo usermod -aG docker samsul
 
 Ganti `samsul` dengan nama pengguna masing-masing. Nah, agar perubahan ini dapat dirasakan, tutup terminal (atau dapat dilakukan dengan perintah `exit`), lalu buka lagi yang baru.
 
-Nah, untuk pengguna distro lain (khususnya yang sudah saya sebutkan pada pengumuman kulgram), mohon maaf saya tidak bahas satu per satu untuk instalasinya. Namun jangan khawatir, berikut link instalasi untuk distro-distro tersebut:
+Untuk memudahkan teman-teman yang mengikuti kulgram ini memahami perintah yang dijalankan, saya buatkan rekamannya menggunakan `asciinema` sebagai berikut:
 
 Proses instalasi Docker CE di mesin saya dapat dilihat di sini : https://asciinema.org/a/9WmcrFmo5VXYK9cZWT2DdykLb
 old : https://asciinema.org/a/L45mHjHTY2LFUcePgCnYotjYp
+
+Nah, untuk pengguna distro lain (khususnya yang sudah saya sebutkan pada pengumuman kulgram), mohon maaf saya tidak bahas satu per satu untuk instalasinya. Namun jangan khawatir, berikut link instalasi untuk distro-distro tersebut:
 
 2. Instalasi pada openSUSE
 Untuk instalasi Docker CE pada openSUSE, silakan merujuk ke sini: https://opensuse.id/2017/11/15/memasang-docker-ce-pada-opensuse-leap-42-2-dan-42-3/
@@ -156,7 +158,7 @@ Untuk instalasi pada Fedora, silakan merujuk ke sini : https://docs.docker.com/e
 
 Jika Anda telah menginstal Docker dengan repository, Anda tidak perlu menginstal lagi dengan cara ini. Karena pada dasarnya, skrip berikut merupakan penyederhanaan dari perintah-perintah di atas. 
 
-Ini pun ada dua pilihan untuk menjalankannya, bisa dengan `curl`, bisa juga dengan `wget`. Pilih salah satu saja, pastikan baik `curl` maupun `wget` telah terinstall.
+Ini pun ada dua pilihan untuk menjalankannya, bisa dengan `curl`, bisa juga dengan `wget`. Pilih salah satu saja, pastikan baik `curl` maupun `wget` telah terinstall. Anda cukup menggunakan salah satunya saja.
 
 - Dengan perintah curl:
 
@@ -164,13 +166,15 @@ Ini pun ada dua pilihan untuk menjalankannya, bisa dengan `curl`, bisa juga deng
 $ sudo curl -sSL https://get.docker.io/ | sh
 ```
 
-- Dengan perintah wget:
+- Atau dengan perintah wget:
 
 ```bash
 $ sudo wget -qO- https://get.docker.io/ | sh
 ```
 
 > ~~Penggunaan skrip otomatis memaksa penggunaan AUFS sebagai sistem file yang mendasari Docker. Script ini mencoba driver AUFS, dan kemudian menginstal secara otomatis jika tidak ditemukan dalam sistem. Selain itu, juga melakukan beberapa tes dasar pada instalasi untuk memverifikasi kesehatan sistem.~~
+
+Apakah teman-teman sudah selesai menginstall Docker? Yang sudah silakan balas dengan **sudah**.
 
 Selanjutnya akan kita bahas mengenai perintah-perintah Docker.
 
@@ -201,19 +205,65 @@ Seperti terlihat pada asciinma tersebut, perintah **search** berfungsi untuk men
 $ docker search ubuntu
 ```
 
+Hasil pencarian dari perintah tersebut hanya akan menampilkan daftar image yang tersedia di registry. Namun kita tidak dapat melihat pada masing-masing image ada tag apa saja. 
 
+Untuk melihat daftar tag yang tersedia kita dapat memanfaatkan Docker Hub, misalnya untuk image resmi Ubuntu : https://hub.docker.com/r/_/ubuntu/ 
+
+Di sebelah **Repo Info** terdapat **Tags**, kita akan melihat berbagai tag yang tersedia. Tag tersebut dapat berupa versi dari sebuah distro atau namakode-nya.
+
+Daftar tag Ubuntu yang tersedia : https://hub.docker.com/r/library/ubuntu/tags/
 
 + Mengunduh image Docker
 
+Setelah kita mengetahui image & tag apa yang akan kita unduh, selanjutnya kita akan mengunduh dengan sub-perintah `pull`. 
 
-https://asciinema.org/a/5hRNryMr1vfAMRRKtoyhwX3n8
+Dalam hal ini, saya akan mengunduh image **ubuntu** dengan tag **14.04**. Maka perintahnya adalah:
 
+```bash
+$ docker pull ubuntu:14.04
+```
+Formatnya adalah **[namaimage]:[tag]**. Jika kita mengunduh (dengan perintah `pull`) tanpa menyertakan **tag**-nya, maka tag default yang akan digunakan adalah **latest** (menjadi misalnya **ubuntu:latest**). 
 
+https://asciinema.org/a/wD4AIfWKey3OXHDbRw1oQ1jct
+
+old: https://asciinema.org/a/5hRNryMr1vfAMRRKtoyhwX3n8
 
 + Menjalankan Container
 
+Untuk melihat image yang beru kita unduh, kita dapat menggunakan sub-perintah `images`:
 
+```bash
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              14.04               3aa18c7568fc        12 days ago         188MB
+```
 
+Perintah tersebut akan menampilkan image yang telah kita unduh beserta tag-nya. 
+
+Selanjutnya untuk menjalankan image tadi, kita dapat mengunakan sub-perintah `run` sebagai berikut:
+
+```bash
+$ docker run -dti --name test1 ubuntu:14.04
+7c16ad1cb35f8c5f5afd255847ab540f881daf084b57acbacbd46a8a649b218b
+```
+Sedikit penjelasan untuk pilihan pada sub-perintah tersebut. 
+- opsi **-dti** merupakan gabungan dari **-d**, **-t**, dan **-i**
+- **-d** artinya image tersebut akan dijalankan dalam mode __detach__ (baca: dijalankan di backgroud).
+- **-t** mengalokasikan pseudo-TTY, ini kita perlukan agar container dapat diakses melalui sub-perintah `exec`
+- **-i** interaktif
+- **--name** diikuti dengan nama container, ini bebas
+- setelah perintah tersebut dijalankan akan menampilkan ID berupa **hash** container yang berjalan.
+
+Lalu kita dapat melihat container yang sedang berjalan dengan menggunakan sub-perintah `ps`.
+
+```bash
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+cb2fe3aa1f70        ubuntu:14.04        "/bin/bash"         9 seconds ago       Up 8 seconds                            test1
+```
+Oke, sampe di sini kita telah berhasil mengunduh, dan menjalanan sebuah Docker container. 
+
+Untuk lebih jelasnya dapat disaksikan dalam asciinema berikut : https://asciinema.org/a/r0bjJRPbWST0BRspBLI33hSO1
 
 **Masalah Keamanan**: Karena Docker berjalan di atas sebuah host, aspek keamanan Docker sendiri bergantung dari sistem operasi host yang menjalankannya. 
 
@@ -221,6 +271,15 @@ Selama seseorang memiliki akses ke sisterm operasi host, maka dia akan memiliki 
 
 Karena untuk mengakses container yang sedang berjalan, dari os host kita tidak memerlukan ssh, maupun koneksi serial. Cukup menggunakan sub-perintah `exec` kita sudah dapat masuk ke dalam container tersebut.
 
++ Masuk ke Container yang sedang berjalan
+
+Nah, ini yang saya maksud:
+
+```bash
+$ docker exec -ti test1 /bin/bash
+```
+
+Lebih jelasnya mari saksikan : https://asciinema.org/a/rSdlMqjHK549Ml6WPELbI0c8T
 
 
 # KULGRAM SELESAI
