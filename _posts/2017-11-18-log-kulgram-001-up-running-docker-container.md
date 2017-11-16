@@ -1,0 +1,231 @@
+---
+layout: post
+title: Log Kulgram #001 Up & Running with Docker Container
+date: '2017-11-20'
+author: Samsul Maarif
+categories: blog
+tags:
+- Linux
+- Docker
+- Container
+bigimg: 
+  - "/img/sidareja_20160714_141402.jpg" : "Sidareja, Cilacap (2016)"
+share-img: "/img/sidareja_20160714_141402.jpg"
+---
+
+# KULGRAM Docker DIMULAI
+
+Assalamu'alaikum, selamat malam teman-teman semua. 
+
+Perkenalkan, saya Samsul Ma'arif. Saya warga negara Indonesia asli Cilacap, Jawa Tengah yang sekarang tinggal di Turen, Kab. Malang, Jawa Timur bersama istri tercinta :-D.
+
+Aktifitas saya sehari-hari adalah seorang A.J.I. Ada yang tau apa itu? 
+
+Ya, betul. Antar Jemput Istri. 
+
+Selain itu, saya juga seorang sysadmin di PuskoMedia Indonesia, sebuah perusahaan yang bergerak di bidang web hosting. 
+
+Meskipun kata __kids zaman now__ pekerjaan sysadmin ini akan segera __punah__, tapi Alhamdulillah, hingga saat ini saya bisa beli beras, micin (eh, gak pake micin ding), bawang, brambang, dll ya dari pekerjaan ini. 
+
+Oke, saya kira cukup perkenalan dari saya. Selanjutnya saya akan langsung masuk ke tema yang akan kita bahas pada malam hari ini adalah tentang Docker Container. 
+
+Ada yang belum tau apa itu Container? 
+
+
+MATERI & PRAKTEK :
++ Mengenal Docker Container
+
+[Logo Docker]
+
+**Docker** merupakan sebuah aplikasi yang bersifat open source yang berfungsi sebagai wadah/container untuk membungkus/memasukkan sebuah perangkat lunak secara lengkap beserta semua hal yang dibutuhkan oleh perangkat lunak tersebut agar dapat berfungsi. 
+
+Dengan Docker, seorang developer maupun sysadmin dapat membangun, mengemas, dan menjalankan aplikasi di mana pun dengan cepat dan efisien. 
+
+Pada Docker, kita akan mengenal istilah **image**, sebuah paket ringan, berdiri sendiri, dapat dieksekusi (Ing: executable) yang mencakup semua yang dibutukan untuk menjalankan perangkat lunak, termasuk kode, runtime, pustaka, variabel lingkungan, dan berkas konfigurasi.
+
+Lalu kita juga mengenal **Container**. Container adalah sebuah runtime dari sebuah **image**. Image akan berada di memori ketika benar-benar dieksekusi. 
+
+Selanjutnya ada **Docker Registry**. Registry merupakan sebuah server yang menyimpan **image** di publik/private repository agar dapat diakses oleh pengguna lain. 
+
+Docker Hub (hub.docker.com) merupakan salah satu repository publik (registry) yang dapat kita gunakan untuk menyimpan image docker yang kita buat.
+
+Arsitektur docker menggunakan client dan server. Docker client mengirimkan request ke docker daemon untuk membangun, mendistribusikan, dan menjalankan container docker.
+
+Keduanya docker client dan daemon dapat berjalan pada sistem yang sama. Antara docker client dan docker daemon berkomunikasi via socket (/var/run/docker.sock) menggunakan RESTful API.
+
+|![](/img/docker-client-server.png)|
+|**Arsitektur Docker**|
+
+Docker juga memiliki port yang terdaftar di IANA, yaitu port 2375. Akan tetapi, untuk alasan keamanan port ini tidak diaktifkan secara default.
+
+Selanjutnya, kita akan pelajari perbedaan antara VM (Virtual Machine) dengan Container.
+
++ VM vs Container
+
+Jika kita pernah menjalankan VirtualBox, lalu menginstall OS di dalamnya, berarti kita membuat sebuah VM di dalam VirtualBox tersebut. 
+
+Ada beberapa tools lain untuk membuat VM, selain VirtualBox, yaitu ada QEMU, KVM, vMWare, libvirt, dll. 
+
+Gambar berikut mengilustrasikan perbedaan antara Docker dengan VM. 
+
+[Perbedaan Docker dan VM]
+
+Dari gambar tersebut, dapat kita ketahui bahwa perbedaan antara Docker dan VM adalah bahwa Docker merupakan teknologi virtualisasi yang berada pada level sistem operasi. Berbeda dengan VM biasa yang merupakan teknologi virtualisasi pada level hardware. 
+
+Salah satu keuntungan menggunakan Docker adalah Anda tidak memerlukan sistem operasi secara penuh setiap kali menjalankan sebuah kontainer baru. Hal ini tentu saja mengurangi ukuran secara keseluruhan dari kontainer itu sendiri. 
+
+Docker bergantung pada Kernel Linux OS host (yang mana hampir semua distribusi Linux menggunakan model kernel standar) yang mana kontainer dibangun dengan kernel tersebut, seperti Ubuntu, CentOS, Debian, dan lain-lain.
+
+Selain Docker, teknologi Container lain adalah :
+- LXC (Linux Container); ini adalah bapak dari semua jenis Container, merepresentasikan lingkungan virtualisasi level-sistem-operasi, untuk menjalankan beberapa sistem Linux (container) dalam satu mesin Linux. Lainnya ada :
+- OpenVZ
+- The FreeBSD jail
+- The AIX Workload partitions (WPARs)
+- Solaris Containers
+
+Pada kulgram ini tentunya saya hanya akan membahas tentang Docker. 
+
+Oke, selanjutnya kita akan masuk ke proses instalasi. 
+
++ Instalasi Docker
+
+Nah, Docker ini ada 2 varian (baca: edisi). CE (Community Edition) dan EE (Enterprise Edition). 
+
+Docker CE ini untuk kita-kita, yang sedang menyelami teknologinya, coba-coba. Dan memang dibuat khusus untuk komunitas. 
+
+Sedangkan Docker EE, sesuai namanya khusus untuk kalangan IT, yang membangun, mendistribusikan, dan menjalankan aplikasi bisnis pada skala produksi. 
+
+Yang akan kita gunakan di sini Docker CE ya.... 
+
+++ Metode Instalasi dengan manajer paket
+1. Instalasi pada Ubuntu
+
+Sebelum menginstal dari repo, Anda harus mengatur repositori Docker. Dengan demikian, Anda dapat menginstall dan memerbarui paket Docker manakala terdapat versi baru.
+
+Install paket-paket yang diperlukan terlebih dahulu:
+
+```bash
+$ sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+```
+
+Tambahkan repository Docker:
+
+```bash
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+```
+
+Tambahkan kunci GPG resmi Docker:
+
+```bash
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+Update lalu instal dengan perintah berikut:
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get install docker-ce
+```
+
+Tambahkan user saat ini ke dalam grup `docker` agar user tersebut dapat menjalankan perintah `docker` tanpa menggunakan sudo. Caranya dengan perintah berikut:
+
+```bash
+$ sudo usermod -aG docker samsul
+```
+
+Ganti `samsul` dengan nama pengguna masing-masing. Nah, agar perubahan ini dapat dirasakan, tutup terminal (atau dapat dilakukan dengan perintah `exit`), lalu buka lagi yang baru.
+
+Nah, untuk pengguna distro lain (khususnya yang sudah saya sebutkan pada pengumuman kulgram), mohon maaf saya tidak bahas satu per satu untuk instalasinya. Namun jangan khawatir, berikut link instalasi untuk distro-distro tersebut:
+
+Proses instalasi Docker CE di mesin saya dapat dilihat di sini : https://asciinema.org/a/9WmcrFmo5VXYK9cZWT2DdykLb
+old : https://asciinema.org/a/L45mHjHTY2LFUcePgCnYotjYp
+
+2. Instalasi pada openSUSE
+Untuk instalasi Docker CE pada openSUSE, silakan merujuk ke sini: https://opensuse.id/2017/11/15/memasang-docker-ce-pada-opensuse-leap-42-2-dan-42-3/
+
+3. Instalasi pada CentOS
+Untuk instalasi pada CentOS, silakan merujuk ke sini : https://docs.docker.com/engine/installation/linux/docker-ce/centos/
+
+4. Instalasi pada Debian
+Untuk instalasi pada Debian, silakan merujuk ke sini : https://docs.docker.com/engine/installation/linux/docker-ce/debian/
+
+5. Instalasi pada Fedora
+Untuk instalasi pada Fedora, silakan merujuk ke sini : https://docs.docker.com/engine/installation/linux/docker-ce/fedora/
+
+++ Metode Instalasi dengan skrip installer
+
+Jika Anda telah menginstal Docker dengan repository, Anda tidak perlu menginstal lagi dengan cara ini. Karena pada dasarnya, skrip berikut merupakan penyederhanaan dari perintah-perintah di atas. 
+
+Ini pun ada dua pilihan untuk menjalankannya, bisa dengan `curl`, bisa juga dengan `wget`. Pilih salah satu saja, pastikan baik `curl` maupun `wget` telah terinstall.
+
+- Dengan perintah curl:
+
+```bash
+$ sudo curl -sSL https://get.docker.io/ | sh
+```
+
+- Dengan perintah wget:
+
+```bash
+$ sudo wget -qO- https://get.docker.io/ | sh
+```
+
+> ~~Penggunaan skrip otomatis memaksa penggunaan AUFS sebagai sistem file yang mendasari Docker. Script ini mencoba driver AUFS, dan kemudian menginstal secara otomatis jika tidak ditemukan dalam sistem. Selain itu, juga melakukan beberapa tes dasar pada instalasi untuk memverifikasi kesehatan sistem.~~
+
+Selanjutnya akan kita bahas mengenai perintah-perintah Docker.
+
++ Memahami Perintah Docker
+
+Baiklah, kita sampai pada sub tema __Memahami Perintah Docker__. 
+
+Docker memiliki beberapa perintah, selain perintah `docker` itu sendiri, juga perintah-perintah yang mengikutinya (selanjutnya disebut sub-perintah). Sub-sub perintah ini dibagi menjadi 2 bagian, yaitu **Managemet Command** dan **Command** saja. 
+
+Untuk saat ini, kita hanya akan menggunakan sub-sub perintah pada bagian **Command** saja, antara lain `search`, `pull`, `images`, dan `run`. 
+
+Sub-sub perintah yang ada selengkapnya dapat kita lihat dengan opsi **--help** di belakang perintah `docker`.
+
+```sh
+$ docker --help | less
+```
+Tambahan perintah `less` di belakang agar output dari perintah sebelumnya dapat discroll ke bawah. Untuk keluar dari perintah tersebut, tekan **Q** di keyboard.
+
+Outputnya kira-kira begini : https://asciinema.org/a/OSgjKwRZr97ATx7L5Emvbvxkh
+
+old: https://asciinema.org/a/5v0YUpV2FdgkthtAM4Ex41VDD
+
+**docker search**
+
+Seperti terlihat pada asciinma tersebut, perintah **search** berfungsi untuk mencari image yang tersimpan di registry. 
+
+```bash
+$ docker search ubuntu
+```
+
+
+
++ Mengunduh image Docker
+
+
+https://asciinema.org/a/5hRNryMr1vfAMRRKtoyhwX3n8
+
+
+
++ Menjalankan Container
+
+
+
+
+**Masalah Keamanan**: Karena Docker berjalan di atas sebuah host, aspek keamanan Docker sendiri bergantung dari sistem operasi host yang menjalankannya. 
+
+Selama seseorang memiliki akses ke sisterm operasi host, maka dia akan memiliki akses ke container kita. 
+
+Karena untuk mengakses container yang sedang berjalan, dari os host kita tidak memerlukan ssh, maupun koneksi serial. Cukup menggunakan sub-perintah `exec` kita sudah dapat masuk ke dalam container tersebut.
+
+
+
+# KULGRAM SELESAI
+
+# Reff
+- https://www.upguard.com/articles/docker-vs-lxc
+- https://www.docker.com/what-container
+- https://www.docker.com/what-docker

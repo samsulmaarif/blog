@@ -21,7 +21,7 @@ Docker awal mulanya dikembangkan oleh Solomon Hykes pada tahun 2009, sebagai pro
 
 Dengan Docker Anda dapat dengan mudah membuat `image` dan lingkungan virtual pada laptop dan menjalankan perintah atau operasi di dalamnya. Aksi yang dijalankan pada kontainer yang berjalan pada mesin lokal Anda akan sama dengan lingkungan saat Docker berjalan pada mesin **produksi**.
 
-Arsitektur docker menggunakan client dan server. Docker client mengirimkan request ke docker daemon untuk membangun, mendistribusikan, dan menjalankan container docker. Keduanya docker client dan daemon dapat berjalan pada sistem yang sama. Antara docker client dan docker daemon berkomunikasi via socker menggunakan RESTful API.
+Arsitektur docker menggunakan client dan server. Docker client mengirimkan request ke docker daemon untuk membangun, mendistribusikan, dan menjalankan container docker. Keduanya docker client dan daemon dapat berjalan pada sistem yang sama. Antara docker client dan docker daemon berkomunikasi via socket (/var/run/docker.sock) menggunakan RESTful API.
 
 |![](/img/docker-client-server.png)|
 |**Arsitektur Docker**|
@@ -64,6 +64,15 @@ $ sudo apt-get install \
     ca-certificates \
     curl \
     software-properties-common
+```
+
+Tambahkan repository Docker:
+
+```bash
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
 ```
 
 Tambahkan kunci GPG resmi Docker:
