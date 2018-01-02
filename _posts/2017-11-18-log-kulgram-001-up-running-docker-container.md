@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Log Kulgram #001 Up & Running with Docker Container
+title: Log Kulgram 001 Up & Running with Docker Container
 date: '2017-11-20'
 author: Samsul Maarif
 categories: blog
@@ -31,11 +31,11 @@ Oke, saya kira cukup perkenalan dari saya. Selanjutnya saya akan langsung masuk 
 
 Ada yang belum tau apa itu Container? 
 
-
 ## MATERI & PRAKTEK :
 + Mengenal Docker Container
 
-[Logo Docker]
+|![](/img/logo-docker.jpg)|
+|**Logo Docker**|
 
 **Docker** merupakan sebuah aplikasi yang bersifat open source yang berfungsi sebagai wadah/container untuk membungkus/memasukkan sebuah perangkat lunak secara lengkap beserta semua hal yang dibutuhkan oleh perangkat lunak tersebut agar dapat berfungsi. 
 
@@ -68,13 +68,18 @@ Ada beberapa tools lain untuk membuat VM, selain VirtualBox, yaitu ada QEMU, KVM
 
 Gambar berikut mengilustrasikan perbedaan antara Docker dengan VM. 
 
-[Perbedaan Docker dan VM]
+|![](/img/docker-vs-vm.png)|
+|**Tabel Perbedaan Docker dan VM**|
 
 Dari gambar tersebut, dapat kita ketahui bahwa perbedaan antara Docker dan VM adalah bahwa Docker merupakan teknologi virtualisasi yang berada pada level sistem operasi. Berbeda dengan VM biasa yang merupakan teknologi virtualisasi pada level hardware. 
 
-Salah satu keuntungan menggunakan Docker adalah Anda tidak memerlukan sistem operasi secara penuh setiap kali menjalankan sebuah kontainer baru. Hal ini tentu saja mengurangi ukuran secara keseluruhan dari kontainer itu sendiri. 
+Salah satu keuntungan menggunakan Docker adalah Anda tidak memerlukan sistem operasi secara penuh setiap kali menjalankan sebuah kontainer baru.
 
-Docker bergantung pada Kernel Linux OS host (yang mana hampir semua distribusi Linux menggunakan model kernel standar) yang mana kontainer dibangun dengan kernel tersebut, seperti Ubuntu, CentOS, Debian, dan lain-lain.
+Hal ini tentu saja mengurangi ukuran secara keseluruhan dari kontainer itu sendiri. 
+
+Docker bergantung pada Kernel Linux OS host (yang mana hampir semua distribusi Linux menggunakan model kernel standar) 
+
+....yang mana kontainer dibangun dengan kernel tersebut, seperti Ubuntu, CentOS, Debian, dan lain-lain.
 
 Selain Docker, teknologi Container lain adalah :
 - LXC (Linux Container); ini adalah bapak dari semua jenis Container, merepresentasikan lingkungan virtualisasi level-sistem-operasi, untuk menjalankan beberapa sistem Linux (container) dalam satu mesin Linux. Lainnya ada :
@@ -98,6 +103,7 @@ Sedangkan Docker EE, sesuai namanya khusus untuk kalangan IT, yang membangun, me
 Yang akan kita gunakan di sini Docker CE ya.... 
 
 ++ Metode Instalasi dengan manajer paket
+
 1. Instalasi pada Ubuntu
 
 Sebelum menginstal dari repo, Anda harus mengatur repositori Docker. Dengan demikian, Anda dapat menginstall dan memerbarui paket Docker manakala terdapat versi baru.
@@ -135,10 +141,11 @@ $ sudo usermod -aG docker samsul
 
 Ganti `samsul` dengan nama pengguna masing-masing. Nah, agar perubahan ini dapat dirasakan, tutup terminal (atau dapat dilakukan dengan perintah `exit`), lalu buka lagi yang baru.
 
-Untuk memudahkan teman-teman yang mengikuti kulgram ini memahami perintah yang dijalankan, saya buatkan rekamannya menggunakan `asciinema` sebagai berikut:
+Untuk memudahkan teman-teman yang mengikuti kulgram ini memahami perintah yang dijalankan, saya buatkan rekamannya menggunakan `asciinema`.
 
-Proses instalasi Docker CE di mesin saya dapat dilihat di sini : https://asciinema.org/a/9WmcrFmo5VXYK9cZWT2DdykLb
-old : https://asciinema.org/a/L45mHjHTY2LFUcePgCnYotjYp
+Rekaman proses instalasi Docker CE di mesin saya dapat dilihat di sini : 
+
+<script src="https://asciinema.org/a/9WmcrFmo5VXYK9cZWT2DdykLb.js" id="asciicast-9WmcrFmo5VXYK9cZWT2DdykLb" async></script>
 
 Nah, untuk pengguna distro lain (khususnya yang sudah saya sebutkan pada pengumuman kulgram), mohon maaf saya tidak bahas satu per satu untuk instalasinya. Namun jangan khawatir, berikut link instalasi untuk distro-distro tersebut:
 
@@ -193,9 +200,9 @@ $ docker --help | less
 ```
 Tambahan perintah `less` di belakang agar output dari perintah sebelumnya dapat discroll ke bawah. Untuk keluar dari perintah tersebut, tekan **Q** di keyboard.
 
-Outputnya kira-kira begini : https://asciinema.org/a/OSgjKwRZr97ATx7L5Emvbvxkh
+Outputnya kira-kira begini : 
 
-old: https://asciinema.org/a/5v0YUpV2FdgkthtAM4Ex41VDD
+<script src="https://asciinema.org/a/OSgjKwRZr97ATx7L5Emvbvxkh.js" id="asciicast-OSgjKwRZr97ATx7L5Emvbvxkh" async></script>
 
 **docker search**
 
@@ -224,9 +231,7 @@ $ docker pull ubuntu:14.04
 ```
 Formatnya adalah **[namaimage]:[tag]**. Jika kita mengunduh (dengan perintah `pull`) tanpa menyertakan **tag**-nya, maka tag default yang akan digunakan adalah **latest** (menjadi misalnya **ubuntu:latest**). 
 
-https://asciinema.org/a/wD4AIfWKey3OXHDbRw1oQ1jct
-
-old: https://asciinema.org/a/5hRNryMr1vfAMRRKtoyhwX3n8
+<script src="https://asciinema.org/a/wD4AIfWKey3OXHDbRw1oQ1jct.js" id="asciicast-wD4AIfWKey3OXHDbRw1oQ1jct" async></script>
 
 + Menjalankan Container
 
@@ -263,11 +268,13 @@ cb2fe3aa1f70        ubuntu:14.04        "/bin/bash"         9 seconds ago       
 ```
 Oke, sampe di sini kita telah berhasil mengunduh, dan menjalanan sebuah Docker container. 
 
-Untuk lebih jelasnya dapat disaksikan dalam asciinema berikut : https://asciinema.org/a/r0bjJRPbWST0BRspBLI33hSO1
+Untuk lebih jelasnya dapat disaksikan dalam asciinema berikut : 
 
-**Masalah Keamanan**: Karena Docker berjalan di atas sebuah host, aspek keamanan Docker sendiri bergantung dari sistem operasi host yang menjalankannya. 
+<script src="https://asciinema.org/a/r0bjJRPbWST0BRspBLI33hSO1.js" id="asciicast-r0bjJRPbWST0BRspBLI33hSO1" async></script>
 
-Selama seseorang memiliki akses ke sisterm operasi host, maka dia akan memiliki akses ke container kita. 
+**Masalah Keamanan**: Seperti yang sudah disebutkan pada tabel di atas, karena Docker berjalan di atas sebuah host, aspek keamanan Docker sendiri bergantung dari sistem operasi host yang menjalankannya. 
+
+Ketika seseorang memiliki akses ke sistem operasi host, maka dia akan memiliki akses ke container kita. 
 
 Karena untuk mengakses container yang sedang berjalan, dari os host kita tidak memerlukan ssh, maupun koneksi serial. Cukup menggunakan sub-perintah `exec` kita sudah dapat masuk ke dalam container tersebut.
 
@@ -277,9 +284,33 @@ Nah, ini yang saya maksud:
 
 ```bash
 $ docker exec -ti test1 /bin/bash
+root@cb2fe3aa1f70:/# uname -a
+Linux cb2fe3aa1f70 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+root@cb2fe3aa1f70:/# cat /etc/*release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=14.04
+DISTRIB_CODENAME=trusty
+DISTRIB_DESCRIPTION="Ubuntu 14.04.5 LTS"
+NAME="Ubuntu"
+VERSION="14.04.5 LTS, Trusty Tahr"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.04.5 LTS"
+VERSION_ID="14.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+root@cb2fe3aa1f70:/# ls /
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+root@cb2fe3aa1f70:/# ls /home
+root@cb2fe3aa1f70:/#
 ```
 
-Lebih jelasnya mari saksikan : https://asciinema.org/a/rSdlMqjHK549Ml6WPELbI0c8T
+Oiya, sekali lagi untuk mengetahui cara penggunaan sebuah sub-perintah, tambahkan **--help** di belakangnya. `docker exec --help` akan menampilkan informasi penggunaan sub-perintah `exec`.
+
+Lebih jelasnya mari saksikan : 
+
+<script src="https://asciinema.org/a/rSdlMqjHK549Ml6WPELbI0c8T.js" id="asciicast-rSdlMqjHK549Ml6WPELbI0c8T" async></script>
 
 
 # KULGRAM SELESAI
