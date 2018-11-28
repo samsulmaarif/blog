@@ -5,14 +5,15 @@ date: '2017-09-05'
 author: Samsul Maarif
 categories: blog
 tags:
-- Replikasi
-- MySQL
-- MariaDB
-- Linux
+  - SysAdmin
+  - Lokakarya
+  - Workshop
+  - Linux
+  - Surabaya
 bigimg: 
   - "/img/lokakarya-blankon-surabaya-2.jpg" : "Lokakarya SysAdmin Blankon, Surabaya (2017)"
 share-img: "/img/lokakarya-blankon-surabaya-2.jpg"
-
+---
 
 Sabtu, 2 September 2017 lalu, pengembang blankon, khususnya tim Infrastruktur mengadakan “Lokakarya Adminsistrasi Sistem Linux untuk pemula.”
 
