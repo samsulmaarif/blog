@@ -39,4 +39,4 @@ Hadir sebagai pemateri, Samsul Ma’arif, IT SysAdmin PuskoMedia Indonesia. Mate
 
 “Harapannya semoga ada lagi acara seperti ini, karena bermanfaat sekali bagi saya,” ujar Funda, salah seorang peserta dari Malang.
 
-> Catatan: Copas dari tulisan lama di blog sebelah.
+> Catatan: Copas dari tulisan lama di blog sebelah, tapi tulisan saya sendiri lho....
