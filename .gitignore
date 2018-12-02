@@ -1,0 +1,15 @@
+# project
+_site
+.sass-cache
+.vagrant
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+.sass-cache
+.jekyll-metadata
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
