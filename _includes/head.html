@@ -15,8 +15,6 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml" />
 
-  {% include force_https.html %}
-
   {% include gtm_head.html %}
 
   {% if layout.common-ext-css %}
@@ -94,7 +92,7 @@
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
-  
+
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
