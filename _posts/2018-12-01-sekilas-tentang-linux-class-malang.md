@@ -10,7 +10,7 @@ tags:
 - DOT
 - Linux
 bigimg: 
-  - "/img/peserta-linux-class-malang-1.jpg" : "Kampung 3D Jodipan, Malang (2018)"
+  - "/img/peserta-linux-class-malang-1.jpg" : "Peserta Linux Class Malang, (2018)"
 share-img: "/img/peserta-linux-class-malang-1.jpg"
 ---
 
