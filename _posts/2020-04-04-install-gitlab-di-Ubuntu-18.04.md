@@ -10,7 +10,7 @@ tags:
 - DevOps
 ---
 
-# Instalasi GitLab
+Setelah sekian lama, saya merasa perlu memerbarui konten blog ini. Kali ini saya akan menulis ulang panduan instalasi GitLab di Ubuntu 18.04 dalam Bahasa Indonesia. Dokumentasi resminya dapat langsung diakses melalui [halaman ini](https://about.gitlab.com/install/#ubuntu). Di sana cukup singkat dan mudah dipahami. Namun saya menambah beberapa cuil penjelasan tambahan berdasarkan hasil praktek yang saya lakukan di postingan ini.
 
 Spesifikasi server yang digunakan sebagai berikut:
 
@@ -20,7 +20,7 @@ vCPU | 2 core
 Memory | 4 GB
 Disk | 40 GB
 
-Lakukan update terlebih dahulu:
+Lakukan update dan install paket dasar yang dibutuhkan:
 
 ```
 sudo apt-get update
@@ -51,7 +51,7 @@ Untuk URL `https://` GitLab akan meminta sertfikat dengan Let's Encrypt secara o
 sudo EXTERNAL_URL="https://gitlab.nacita.id" apt-get install gitlab-ce
 ```
 
-Akses melalui browser ke alamat https://gitlab.nacita.id (URL yang Anda gunakan pada parameter EXTERNAL_URL di atas)
+Akses melalui browser ke alamat `https://gitlab.nacita.id` (URL yang Anda gunakan pada parameter EXTERNAL_URL di atas)
 
 Anda mungkin perlu mengonfigurasi A record pada DNS manager Anda untuk dipointing pada alamat IP public server GitLab Anda.
 
