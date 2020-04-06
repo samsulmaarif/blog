@@ -9,8 +9,8 @@ tags:
 - GitLab
 - DevOps
 bigimg:
-  - "/img/2014-04-29-08.58.56.jpg" : ""
-share-img: "/img/2014-04-29-08.58.56.jpg"
+  - "/img/tugu-malang-2019.jpg" : ""
+share-img: "/img/tugu-malang-2019.jpg"
 ---
 
 Setelah sekian lama, saya merasa perlu memerbarui konten blog ini. Kali ini saya akan menulis ulang panduan instalasi GitLab di Ubuntu 18.04 dalam Bahasa Indonesia. Dokumentasi resminya dapat langsung diakses melalui [halaman ini](https://about.gitlab.com/install/#ubuntu). Di sana cukup singkat dan mudah dipahami. Namun saya menambah beberapa cuil penjelasan tambahan berdasarkan hasil praktek yang saya lakukan di postingan ini.
