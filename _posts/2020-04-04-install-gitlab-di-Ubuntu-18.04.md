@@ -15,13 +15,19 @@ share-img: "/img/tugu-malang-2019.jpg"
 
 Setelah sekian lama, saya merasa perlu memerbarui konten blog ini. Kali ini saya akan menulis ulang panduan instalasi GitLab di Ubuntu 18.04 dalam Bahasa Indonesia. Dokumentasi resminya dapat langsung diakses melalui [halaman ini](https://about.gitlab.com/install/#ubuntu). Di sana cukup singkat dan mudah dipahami. Namun saya menambah beberapa cuil penjelasan tambahan berdasarkan hasil praktek yang saya lakukan di postingan ini.
 
-Spesifikasi server yang digunakan sebagai berikut:
+**GitLab** merupakan sebuah aplikasi lengkap untuk pengembangan perangkat lunak (software development). Selain fitur utama sebagai manajer repositori Git berbasis web, ratusan fitur lainnya juga tak kalah menarik untuk diulik. Seperti tertulis di laman websitenya, GitLab merupakan platfom lengkap untuk siklus DevOps (Development and Operation).
+
+Berbeda dengan rivalnya, yaitu GitHub, GitLab merupakan aplikasi yang bersifat *open source* alias sumber terbuka dan dapat kita install di server kita sendiri. Nah, GitLab yang dapat kita install sendiri ini ada dua edisi. Edisi Komunitas (Community Edition; CE) dan Edisi Perusahaan (Enterprise Edition; EE), pada praktek kali saya hanya akan menggunakan edisi komunitas.
+
+Spesifikasi server (VM) yang saya gunakan sebagai berikut:
 
 Komponen | Spesifikasi
 --- | ---
 vCPU | 2 core
 Memory | 4 GB
 Disk | 40 GB
+
+Untuk membaca kebutuhan minimal lengkapnya silakan buka halaman [dokumentasinya di sini](https://docs.gitlab.com/ee/install/requirements.html#hardware-requirements).
 
 Lakukan update dan install paket dasar yang dibutuhkan:
 
@@ -58,11 +64,15 @@ Akses melalui browser ke alamat `https://gitlab.nacita.id` (URL yang Anda gunaka
 
 Anda mungkin perlu mengonfigurasi A record pada DNS manager Anda untuk dipointing pada alamat IP public server GitLab Anda.
 
+![Buat root password](https://i.imgur.com/RtAfAFY.png)
+
 Saat pertama kali dibuka, Anda akan diarahkan ke halaman reset kata sandi. Masukkan password untuk akun administrator pertama, dan Anda akan diarahkan kembali ke halaman login. Gunakan nama pengguna default `root` untuk masuk.
+
+![Tampilan awal setelah login sebagai root](https://i.imgur.com/ocuD4hW.png)
 
 Baca dokumentasi lengkapnya pada halaman [instalasi dan konfigurasi](https://docs.gitlab.com/omnibus/README.html#installation-and-configuration-using-omnibus-package).
 
-Agar lebih jelas, saya buatkan sreencast sebagai berikut :
+Agar lebih jelas, saya buatkan sreencast proses instalasinya sebagai berikut :
 
 [![asciicast](https://asciinema.org/a/lPp5LqT6yB3sQiokbM4JuED9y.svg)](https://asciinema.org/a/lPp5LqT6yB3sQiokbM4JuED9y)
 
