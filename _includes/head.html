@@ -7,9 +7,13 @@
 
   <meta name="author" content="{{ site.author.name }}" />
 
-  {% if page.subtitle %}
-  <meta name="description" content="{{ page.subtitle }}">
-  {% endif %}
+  {% if page.meta-description %}
+ <meta name="description" content="{{ page.meta-description }}">
+ {% elsif page.subtitle %}
+ <meta name="description" content="{{ page.subtitle }}">
+ {% else %}
+ <meta name="description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+ {% endif %}
 
   <link rel="shortcut icon" type="image/png" href="{{ site.url }}{{ site.favicon }}"/>
 
