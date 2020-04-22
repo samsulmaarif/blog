@@ -94,6 +94,10 @@ git commit -m "Commit pertama"
 git push -u origin master
 ```
 
+Kira-kira begini cara uploadnya :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rv__Lr9BTEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Nah, selanjutnya bagian yang menarik adalah membuat konfigurasi CI/CD dengan membuat berkas bernama `.gitlab-ci.yml`. Untuk hal ini, mari kita buat dan isikan sebagai berikut :
 
 ```yaml
@@ -173,6 +177,14 @@ git push origin master
 Kembali ke GitLab, di repositori yang kita buat sebelumnya, di panel kiri cari menu **CI/CD** -> **Pipelines**, Anda akan melihat tampilan seperti berikut:
 
 ![Pipeline yang sedang dibuat](https://i.imgur.com/Ozkc8Dv.png)
+
+Setelah beberapa saat akan terlihat apakah sukses, atau gagal.
+
+![](https://i.imgur.com/KHorIGi.png)
+
+Kita juga dapat melihat lebih detail untuk masing-masing stage dan job-nya.
+
+![](https://i.imgur.com/xhpaSBt.png)
 
 Klik pada tiap tahapnya untuk melihat lebih detail. Pastikan semua tahap berjalan sukses yang ditandai dengan pipeline yang berwarna hijau, artinya CI/CD berhasil melakukan semua tahap, termasuk deployment.
 
