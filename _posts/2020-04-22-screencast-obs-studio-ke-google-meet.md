@@ -59,4 +59,37 @@ Jangan khawatir, hasilnya memang terbalik dari sisi kita. Namun jika dilihat dar
 - Kemungkinan karena faktor koneksi internet yang saya gunakan, namun bisa jadi karena memang ada pengaturan di obs yang belum saya sesuaikan.  
 - Terlepas dari hal tersebut, kelebihan menggunakan metode ini adalah kita dapat menyesuaikan **Scene** yang akan kita tampilkan sehingga nampak lebih profesional bak siaran di televisi. #halah
 
+Buat systemd service agar perangkat **loopback** (`/dev/video10`) dibuat secara otomatis pada saat komputer dinyalakan.
+
+```
+sudo vim /etc/systemd/system/v4l2loopback.service
+```
+
+lalu isikan sebagai berikut:
+
+```
+# /etc/systemd/system/v4l2loopback.service
+#
+
+[Unit]
+Description=Activate v4l2loopback at startup
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/modprobe v4l2loopback devices=1 video_nr=10 card_label="OBS Cam" exclusive_caps=1
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+aktifkan dengan perintah berikut:
+
+```
+sudo systemctl enable v4l2loopback
+sudo systemctl status v4l2loopback
+```
+
+Dengan begitu kita tidak perlu mengetikkan `modprobe blabla` secara manual agar perangkat (kamera) virtual aktif.
+
 Referensi : [https://srcco.de](https://srcco.de/posts/using-obs-studio-with-v4l2-for-google-hangouts-meet.html)
