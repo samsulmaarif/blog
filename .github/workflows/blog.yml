@@ -2,9 +2,9 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ source ]
   pull_request:
-    branches: [ gh-pages ]
+    branches: [ source ]
 
 jobs:
   build:
@@ -29,3 +29,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        enable_jekyll: true
