@@ -8,7 +8,7 @@ tags:
 - Linux
 - GitLab
 - DevOps
-bigimg:
+cover-img:
   - "/img/teluk-penyu-2017.jpg" : "Pantai Teluk Penyu, Cilacap (2017)"
 share-img: "/img/teluk-penyu-2017.jpg"
 ---

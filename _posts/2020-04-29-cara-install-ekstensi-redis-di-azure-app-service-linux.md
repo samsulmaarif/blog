@@ -7,7 +7,7 @@ categories: blog
 tags:
 - Linux
 - Azure
-bigimg:
+cover-img:
   - "/img/path.jpg" : ""
 share-img: "/img/path.jpg"
 ---

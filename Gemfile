@@ -1,6 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages', '106'
+gem 'github-pages', group: :jekyll_plugins
+gem "beautiful-jekyll-theme", "4.1.0"
 gem 'jekyll-paginate'
 gem "jekyll-gist"
 gem "jekyll-sitemap"

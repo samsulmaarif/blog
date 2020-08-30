@@ -10,7 +10,7 @@ tags:
   - Spam
   - Linux
   - Komentar
-bigimg: 
+cover-img: 
   - "/img/taman-singha-merjosari-malang-2018.jpg" : "Taman Singha Merjosari, Malang (2018)"
 share-img: "/img/taman-singha-merjosari-malang-2018.jpg"
 ---

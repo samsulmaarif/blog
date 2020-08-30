@@ -8,9 +8,9 @@ tags:
 - Linux
 - openSUSE
 - google-cloud
-bigimg:
-  - "https://user-images.githubusercontent.com/1231314/91656030-96fd2300-eadf-11ea-86fb-145f8100d475.jpg" : "TEFA SMK Yadika Bangil (2019)"
-share-img: "https://user-images.githubusercontent.com/1231314/91656030-96fd2300-eadf-11ea-86fb-145f8100d475.jpg"
+cover-img:
+  - "/img/tugu-malang-2019.jpg" : "Tugu Malang (2019)"
+share-img: "/img/tugu-malang-2019.jpg"
 ---
 
 Postingan kali ini akan sangat singkat, karena merupakan catatan yang dibuat untuk sekedar mendokumentasikan apa yang saya ketikkan saat memasang `gcloud` CLI di laptop saya. Sistem Operasi yang digunakan di laptop saya seperti yant tertulis di judul tulisan ini, yaitu [openSUSE Leap 15.2](https://software.opensuse.org/distributions/leap).
@@ -98,4 +98,4 @@ gcloud auth login
 
 Langkah selanjutnya dapat dibaca di postingan saya yang lain [di sini](/2020/08/opensuse-leap-di-google-cloud-platform.html). Happy hacking int the cloud!
 
-Ingin belajar lebih jauh tentang teknologi Google Cloud? atai ingin menyewa jasa kami? boleh lah intip ke sini --> [https://nacita.id/layanan/jasa/](https://nacita.id/layanan/jasa/)
+Ingin belajar lebih jauh tentang teknologi Google Cloud? atai ingin menyewa jasa kami? boleh lah intip ke sini --> [https://nacita.id](https://nacita.id/layanan/jasa/)

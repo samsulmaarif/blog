@@ -9,7 +9,7 @@ tags:
 - Download
 - VHD UNBK 2018
 - Unduh Cepat
-bigimg: 
+cover-img: 
   - "/img/kampung-warna-warni-malang_20180117.jpg" : "Kampung Warna-warni Jodipan, Kab. Malang (2018)"
 share-img: "/img/kampung-warna-warni-malang_20180117.jpg"
 ---

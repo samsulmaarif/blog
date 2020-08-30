@@ -1,12 +1,13 @@
 version: '3'
 services:
   site:
-    command: /bin/bash -c "bundle install && jekyll serve --watch --force_polling --verbose --incremental"
+    command: /bin/sh -c "bundle install --verbose --path=vendor && jekyll serve --verbose"
     image: jekyll/jekyll:3.8
     volumes:
       - .:/srv/jekyll
-      - ./vendor/bundle:/usr/local/bundle
+      - ./vendor/bundle
     ports:
       - 4002:4000
     environment:
       JEKYLL_ENV: local
+    entrypoint: ""

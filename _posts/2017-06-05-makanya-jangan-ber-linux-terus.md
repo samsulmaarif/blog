@@ -6,7 +6,7 @@ author: Samsul Maarif
 categories: blog
 tags:
 - Linux
-bigimg: 
+cover-img: 
   - "/img/kampung-laut_20160708_171733.jpg" : "Kampung Laut, Cilacap (2016)"
 share-img: "/img/windows-cant-connect.jpg"
 ---

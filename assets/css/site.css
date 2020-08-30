@@ -1,0 +1,26 @@
+div.container.gallery {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+gallery:hover {
+  border: 1px solid #777;
+}
+
+gallery img {
+  width: 100%;
+  height: auto;
+}
+
+gallery figcaption {
+  padding: 5px;
+  height: 60px;
+  text-align: center;
+}

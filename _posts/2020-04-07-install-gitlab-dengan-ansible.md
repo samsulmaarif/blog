@@ -9,7 +9,7 @@ tags:
 - GitLab
 - DevOps
 - Ansible
-bigimg:
+cover-img:
   - "/img/sawah-sidareja.jpg" : "Purwosari, Kedungreja, Cilacap (2019)"
 share-img: "/img/sawah-sidareja.jpg"
 ---

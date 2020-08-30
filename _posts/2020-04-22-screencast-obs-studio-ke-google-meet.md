@@ -7,7 +7,7 @@ categories: blog
 tags:
 - Linux
 - openSUSE
-bigimg:
+cover-img:
   - "/img/muktisari-20190612.jpg" : "Kampung Halaman, Desa Muktisari, Gandrungmangu, Cilacap (2019)"
 share-img: "/img/muktisari-20190612.jpg"
 ---

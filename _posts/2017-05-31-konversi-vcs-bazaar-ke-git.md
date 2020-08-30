@@ -9,7 +9,7 @@ tags:
 - VCS
 - Bazaar
 - Git
-bigimg: 
+cover-img: 
   - "/img/festival-destika-2015.jpg" : "Pantai Tanjung Tinggi, Belitung Timur (2015)"
   - "/img/menjadi-siswa-pak-onno.jpg" : "Menjadi siswa pak Onno W. Purbo di Sekolah Laskar Pelangi (2015)"
 share-img: "/img/workshop-server-website-desa.jpg"

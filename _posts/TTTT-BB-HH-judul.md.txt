@@ -6,7 +6,7 @@ author: Samsul Maarif
 categories: blog
 tags:
 - Linux
-bigimg: 
+cover-img: 
   - "/img/*.jpg" : ""
 share-img: "/img/*.jpg"
 ---

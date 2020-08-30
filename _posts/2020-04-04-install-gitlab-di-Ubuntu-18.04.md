@@ -8,7 +8,7 @@ tags:
 - Linux
 - GitLab
 - DevOps
-bigimg:
+cover-img:
   - "/img/tugu-malang-2019.jpg" : "Tugu Malang, Kota Malang (2019)"
 share-img: "/img/tugu-malang-2019.jpg"
 ---

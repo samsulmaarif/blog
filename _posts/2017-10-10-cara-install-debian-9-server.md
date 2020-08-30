@@ -8,7 +8,7 @@ tags:
 - Linux
 - Debian
 - Instalasi
-bigimg: 
+cover-img: 
   - "/img/debian-9/install-debian-42.png" : ""
 share-img: "/img/debian-9/install-debian-42.png"
 ---

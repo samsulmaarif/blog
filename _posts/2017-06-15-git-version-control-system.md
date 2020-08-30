@@ -8,7 +8,7 @@ tags:
 - Linux
 - Git
 - VCS
-bigimg: 
+cover-img: 
   - "/img/dbs-episode-80-an.jpg" : "Dragonball Super (2017)"
 share-img: "/img/dbs-episode-80-an.jpg"
 ---

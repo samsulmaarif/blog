@@ -9,7 +9,7 @@ tags:
 - MySQL
 - MariaDB
 - Linux
-bigimg: 
+cover-img: 
   - "/img/kampung-3d-jodipan-malang-2018-11.jpg" : "Kampung 3D Jodipan, Malang (2018)"
 share-img: "/img/kampung-3d-jodipan-malang-2018-11.jpg"
 ---

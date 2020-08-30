@@ -10,7 +10,7 @@ tags:
   - Workshop
   - Linux
   - Surabaya
-bigimg: 
+cover-img: 
   - "/img/lokakarya-blankon-surabaya-2.jpg" : "Lokakarya SysAdmin Blankon, Surabaya (2017)"
 share-img: "/img/lokakarya-blankon-surabaya-2.jpg"
 ---

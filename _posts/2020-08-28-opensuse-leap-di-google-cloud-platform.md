@@ -8,7 +8,7 @@ tags:
 - Linux
 - openSUSE
 - google-cloud
-bigimg:
+cover-img:
   - "/img/ipin-junior-sysadmin-2018-11-27.jpg" : "Ipin Junior SysAdmin (2018)"
 share-img: "/img/ipin-junior-sysadmin-2018-11-27.jpg"
 ---

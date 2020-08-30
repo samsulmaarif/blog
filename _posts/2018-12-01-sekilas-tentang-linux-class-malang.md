@@ -9,7 +9,7 @@ tags:
 - CentOS
 - DOT
 - Linux
-bigimg: 
+cover-img: 
   - "/img/peserta-linux-class-malang-1.jpg" : "Peserta Linux Class Malang, (2018)"
 share-img: "/img/peserta-linux-class-malang-1.jpg"
 ---

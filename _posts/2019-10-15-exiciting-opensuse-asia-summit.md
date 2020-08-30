@@ -8,7 +8,7 @@ tags:
 - oSAS19
 - Linux
 - openSUSE
-bigimg:
+cover-img:
   - "/img/osas/osas-0.jpg" : "openSUSE Asia Summit, Bali (2019)"
 share-img: "/img/osas/osas-0.jpg"
 ---

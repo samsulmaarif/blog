@@ -6,7 +6,7 @@ author: Samsul Maarif
 categories: blog
 tags:
 - Linux
-bigimg:
+cover-img:
   - "/img/osas2019-bali.jpg" : "openSUSE Asia Summit 2019, Bali"
 share-img: "/img/osas2019-bali.jpg"
 ---

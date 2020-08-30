@@ -8,7 +8,7 @@ tags:
 - Linux
 - Docker
 - Container
-bigimg: 
+cover-img: 
   - "/img/sidareja_20160714_141402.jpg" : "Sidareja, Cilacap (2016)"
 share-img: "/img/sidareja_20160714_141402.jpg"
 ---

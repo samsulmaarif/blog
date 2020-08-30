@@ -1,8 +1,12 @@
+theme: beautiful-jekyll-theme
+
 # Site wide configuration
 
 title: Samsul Ma'arif
+author: Samsul Ma'arif
 locale: id_ID
 description: Catatan kecil pengguna Linux.
+keywords: sysadmin,docker,system administrator,sysadmin malang,jasa sysadmin,jasa devops
 search: true
 timezone: Asia/Jakarta
 url: https://blog.samsul.web.id
@@ -23,6 +27,7 @@ navbar-links:
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
+round-avatar: true
 favicon: "/img/favicon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
@@ -33,7 +38,8 @@ favicon: "/img/favicon.png"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
+social-network-links:
+  rss: true
   name: Samsul Ma'arif
   email: "hay@samsul.web.id"
   facebook: samsul.web.id
@@ -48,31 +54,13 @@ author:
   instagram: samsul.web.id
 #  youtube: yourlink   # eg. user/daattali or channel/daattali
 #  spotify: yourname   # eg. daattali
-#  telephone: 
+#  telephone:
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: true
-  facebook: true
-  email: true
-  twitter: true
-  google-plus: false
-  github: true
-  reddit: false
-  linkedin: true
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: true
-  youtube: false
-  spotify: false
-  telephone: true
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
-  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
@@ -95,6 +83,9 @@ fb_app_id: "642615472602024"
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
+
+# --- Colours / background image --- #
+mobile-theme-col: "#0085A1"
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
@@ -122,12 +113,17 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      footer-extra: mdgallery.html
+      css: "assets/css/site.css"
+      # js: "assets/js/md-gallery.js"
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: true
+      footer-extra: mdgallery.html
+
 
 link-tags: true
 
@@ -141,6 +137,7 @@ exclude:
   - README.md
   - Vagrantfile
   - blog-05-27-2017.xml
+  - docker-compose.yml
   - .travis.yml
   - vendor
 
@@ -197,8 +194,12 @@ prose:
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+
+# plugins:
+#   - "jekyll-paginate"
+#   - "jekyll-sitemap"
+#   - "jekyll-gist"
+#   - "jekyll-feed"
+#   - "beautiful-jekyll-theme", "4.1.0"
+#   - "jekyll-remote-theme"
+#   - "therubyracer"

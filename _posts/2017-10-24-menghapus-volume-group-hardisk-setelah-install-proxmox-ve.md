@@ -10,7 +10,7 @@ tags:
 - Proxmox
 - LVM
 - Hardisk
-bigimg: 
+cover-img: 
   - "/img/family-time_Muktisari_20170215.jpg" : "Family Time, Muktisari, Cilacap (2017)"
 share-img: "/img/family-time_Muktisari_20170215.jpg"
 ---

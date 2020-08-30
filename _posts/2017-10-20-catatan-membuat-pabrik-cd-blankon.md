@@ -8,7 +8,7 @@ tags:
 - Linux
 - BlankOn
 - Infrastrktur
-bigimg: 
+cover-img: 
   - "/img/pantai-balekambang_20160724_094830.jpg" : "Pantai Balekambang, Malang, Jawa Timur (2016)"
 share-img: "/img/pantai-balekambang_20160724_094830.jpg"
 ---

@@ -9,7 +9,7 @@ tags:
 - VirtualBox
 - VDI
 - Linux
-bigimg: 
+cover-img: 
   - "/img/ipin-junior-sysadmin-2018-11-27.jpg" : "Ipin si Junior SysAdmin, Kota Malang (2018)"
 share-img: "/img/ipin-junior-sysadmin-2018-11-27.jpg"
 ---
