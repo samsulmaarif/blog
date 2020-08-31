@@ -140,13 +140,7 @@ exclude:
   - docker-compose.yml
   - .travis.yml
   - vendor
-
-
-# plugins:
-#   - "jekyll-paginate"
-#   - "jekyll-sitemap"
-#   - "jekyll-gist"
-#   - "jekyll-feed"
-#   - "beautiful-jekyll-theme", "4.1.0"
-#   - "jekyll-remote-theme"
-#   - "therubyracer"
+  - .firebase
+  - .firebaserc
+  - firebase.json
+  - firebase-debug.log

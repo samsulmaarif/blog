@@ -10,12 +10,16 @@ build:
   stage: build
   image: jekyll/jekyll:3.8
   script:
-  - jekyll build -d _site
+    - bundle install --verbose --path=vendor
+    - jekyll build -d _site
   artifacts:
     paths:
     - _site
   only:
   - source
+  cache:
+    paths:
+      - vendor/
 
 deploy_prod:
   stage: deploy
