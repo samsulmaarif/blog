@@ -19,13 +19,19 @@ jobs:
       with:
         path: vendor
         key: ${{ runner.os }}-blog
-    - name: Build the site in the jekyll/builder container
+    - name: Build the site in the jekyll/jekyll container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && bundle install --verbose --path=vendor && jekyll build --future"
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+        -e JEKYLL_ENV=production \
+        jekyll/jekyll:3.8 /bin/bash -c "chmod 777 /srv/jekyll && bundle install --path=vendor && jekyll build"
+    - name: Use Node.js 12.13.0
+      uses: actions/setup-node@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        node-version: 12.13.0
+    - run: npm install -g firebase-tools
+    - run: firebase deploy -f --token $FIREBASE_DEPLOY_KEY
+      env:
+        CI: true
+        JEKYLL_ENV: production
+        LC_ALL: C.UTF-8
