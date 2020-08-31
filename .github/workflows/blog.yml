@@ -26,7 +26,7 @@ jobs:
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         -v ${{ github.workspace }}/vendor:/srv/jekyll/vendor \
         -e JEKYLL_ENV=production \
-        jekyll/jekyll:3.8 /bin/bash -c "chmod 777 /srv/jekyll && gem install bundler && bundle install --path=vendor && jekyll build"
+        jekyll/jekyll:3.8 /bin/bash -c "gem install bundler && chmod -Rf 777 /srv/jekyll && bundle install --path=vendor && jekyll build"
     - name: Use Node.js 12.13.0
       uses: actions/setup-node@v1
       with:
