@@ -32,8 +32,9 @@ jobs:
       with:
         node-version: 12.13.0
     - run: npm install -g firebase-tools
-    - run: firebase deploy -f --token $FIREBASE_DEPLOY_KEY
+    - run: firebase deploy -f --token "$firebase_token"
       env:
         CI: true
         JEKYLL_ENV: production
         LC_ALL: C.UTF-8
+        firebase_token: ${{ secrets.FIREBASE_DEPLOY_KEY }}
