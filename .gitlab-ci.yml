@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+build:
+  stage: build
+  image: jekyll/jekyll:3.8
+  script:
+  - jekyll build -d _site
+  artifacts:
+    paths:
+    - _site
+  only:
+  - source
+
+deploy_prod:
+  stage: deploy
+  image: node:12.13.0-alpine
+  before_script:
+    - npm i -g firebase-tools
+  script:
+    - firebase deploy -f --token $FIREBASE_DEPLOY_KEY
+  dependencies:
+    - build
+  only:
+    - source
