@@ -98,4 +98,4 @@ gcloud auth login
 
 Langkah selanjutnya dapat dibaca di postingan saya yang lain [di sini](/2020/08/opensuse-leap-di-google-cloud-platform.html). Happy hacking int the cloud!
 
-Ingin belajar lebih jauh tentang teknologi Google Cloud? atai ingin menyewa jasa kami? boleh lah intip ke sini --> [https://nacita.id](https://nacita.id/layanan/jasa/)
+Ingin belajar lebih jauh tentang teknologi Google Cloud? atau ingin menyewa jasa kami? boleh lah intip ke sini --> [https://nacita.id](https://nacita.id/layanan/jasa/)

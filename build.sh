@@ -1,0 +1,1 @@
+docker run -ti --rm -v "$PWD:/srv/jekyll" -v "$PWD/vendor/bundle:/usr/local/bundle" jekyll/jekyll:3.8 /bin/sh -c "chmod -Rf 777 vendor && bundle install --verbose --path=vendor && jekyll build --incremental --future --verbose"

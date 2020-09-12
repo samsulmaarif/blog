@@ -1,13 +1,15 @@
 version: '3'
 services:
   site:
-    command: /bin/sh -c "bundle install --verbose --path=vendor && jekyll serve --verbose"
+    command: /bin/sh -c "chmod -Rf 777 vendor && bundle install --verbose --path=vendor && jekyll serve --config .config-dev.yml --incremental --future --watch --force_polling --verbose"
     image: jekyll/jekyll:3.8
     volumes:
       - .:/srv/jekyll
-      - ./vendor/bundle
+      - ./vendor/site:/srv/jekyll/_site
+      - ./vendor/bundle:/usr/local/bundle
     ports:
       - 4002:4000
     environment:
       JEKYLL_ENV: local
+      # PAGES_REPO_NWO: samsulmaarif/blog
     entrypoint: ""

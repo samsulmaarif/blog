@@ -69,16 +69,16 @@ url-pretty: "www.samsul.web.id"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "blogsamsul"
+disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-130238985-1"
+google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
 
 # Facebook App ID
-fb_app_id: "642615472602024"
+fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -126,7 +126,6 @@ defaults:
 
 
 link-tags: true
-feed_show_excerpt: true
 
 exclude:
   - CHANGELOG.md
