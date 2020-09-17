@@ -75,7 +75,7 @@ disqus: "blogsamsul"
 google_analytics: "UA-130238985-1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "G-N5HRM4RFRS"
 
 # Facebook App ID
 fb_app_id: "642615472602024"
