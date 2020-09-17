@@ -125,7 +125,7 @@ defaults:
       footer-extra: mdgallery.html
 
 
-link-tags: true
+link-tags: false
 feed_show_excerpt: true
 
 exclude:
