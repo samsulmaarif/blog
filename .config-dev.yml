@@ -126,6 +126,7 @@ defaults:
 
 
 link-tags: true
+feed_show_excerpt: true
 
 exclude:
   - CHANGELOG.md
