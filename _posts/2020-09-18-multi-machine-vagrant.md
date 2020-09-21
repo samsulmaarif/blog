@@ -41,7 +41,7 @@ vagrant $ tree
 
 Dengan masing konten `Vagrantfile` sebagai berikut (tentunya dengan hostname yang berbeda):
 
-```
+```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "centos/8"
   config.vm.box_version = "1905.1"
@@ -90,7 +90,7 @@ vim Vagrantfile
 
 Isi file `Vagrantfile` tersebut adalah sebagai berikut:
 
-```
+```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "centos/8"
   config.vm.box_version = "1905.1"
@@ -125,7 +125,7 @@ Konfigurasi globalnya menunjukkan sistem operasi yang digunakan, yaitu pada `con
 
 Nah, konfigurasi global tersebut juga dapat kita terapkan secara spesifik, misalnya kita ingin sang `manager` kita ingin spesifikasinya lebih besar, misalnya sebagai berikut:
 
-```
+```ruby
 config.vm.define "manager" do |manager|
   manager.vm.hostname = "manager"
   manager.vm.network "private_network", ip:"10.2.2.5"
@@ -157,4 +157,74 @@ Hasilnya pun memuaskan, seperti yang saya harapkan.
 ![Screenshot-20200919205106-570x591](https://user-images.githubusercontent.com/1231314/93668914-26cc3680-faba-11ea-94f4-61f67a5924d9.png){: .mx-auto.d-block :}
 
 
+## update
+
+Terima kasih atas komentar pak [Agus Prasetio](https://github.com/aoktox) (seorang SRE (DevOps) di Traveloka) di fb saya, dan ternyata kita dapat membuat looping di dalam berkas `Vagrantfile` seperti contoh berikut :
+
+```ruby
+SPECIALS = {
+  "manager" => { :ip => "10.2.2.100", :ram => 2048 },
+  "asst-manager" => { :ip => "10.2.2.101", :ram => 1024 }
+}
+
+NODES_COUNT = 2
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/8"
+  config.vm.box_version = "1905.1"
+  config.vm.provision "shell", path: "install-docker.sh"
+  config.vm.provider :libvirt do |libvirt|
+    libvirt.memory = 1024
+    libvirt.cpus = 1
+    libvirt.nested = true
+  end
+
+  SPECIALS.each_with_index do |(hostname, attributes), index|
+    config.vm.define hostname do |nodeconfig|
+      nodeconfig.vm.hostname = hostname
+      nodeconfig.vm.network :private_network, ip: attributes[:ip]
+      nodeconfig.vm.provider :libvirt do |libvirt|
+        libvirt.memory = attributes[:ram]
+        libvirt.cpus = 2
+        libvirt.nested = true
+      end
+    end
+  end
+
+  (1..NODES_COUNT).each do |i|
+    config.vm.define "node-#{i}" do |node|
+      node.vm.network "private_network", ip: "10.2.2.1#{i}"
+      node.vm.hostname = "node#{i}"
+      node.vm.provider :libvirt do |libvirt|
+        libvirt.memory = "1024"
+        libvirt.cpus = 1
+      end
+    end
+  end
+
+end
+```
+
+dengan code tersebut, kita membuat 4 buah VM dengan dua metode looping seperti terlihat di situ ada `SPECIALS` dan `NODES_COUNT`. Hasilnya seperti ini:
+
+```
+$ vagrant status
+Current machine states:
+
+manager                   running (libvirt)
+asst-manager              running (libvirt)
+node-1                    running (libvirt)
+node-2                    running (libvirt)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+```
+
 Demikian catatan singkat ini, semoga bermanfaat.
+
+## Referensi
+- [Cara Install Vagrant & Libvirt](/2020/09/menjalankan-vagrant-libvirt-di-opensuse-leap.html)
+- [https://gist.github.com/aoktox/d5033bb383f93fa2d752574cd9da37f8](https://gist.github.com/aoktox/d5033bb383f93fa2d752574cd9da37f8)
+- [https://www.vagrantup.com/docs/multi-machine](https://www.vagrantup.com/docs/multi-machine)

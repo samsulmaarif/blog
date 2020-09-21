@@ -38,7 +38,7 @@ Untuk mengikuti tutorial ini sebaiknya temen-temen paham apa itu GitLab, CI/CD, 
 
 Buat sebuah Project baru di gcp namanya bebas dalam hal ini nama yang akan saya gunakan adalah Nacita Nolsatu, dengan ID `nacita-nolsatu`. ID tersebut akan kita gunakan pada langkah berikutnya.
 
-Selanjutnya kita perlu membuat sebuah instance (VM), yang akan kita gunakan sebagai orkestrator. Ada dua cara untuk membuat sebuah instansi GCP, cara pertama adalah menggunakan [gcloud CLI](/2020/08/cara-install-gcloud-cli-opensuse-leap.html) sedangkan cara kedua adalah menggunakan Google Cloud console.  
+Selanjutnya kita perlu membuat sebuah instance (VM), yang akan kita gunakan sebagai orkestrator. Ada dua cara untuk membuat sebuah instance GCP, cara pertama adalah menggunakan [gcloud CLI](/2020/08/cara-install-gcloud-cli-opensuse-leap.html) sedangkan cara kedua adalah menggunakan Google Cloud console.  
 
 Untuk cara pembuatan VM dengan gcloud CLI dapat di baca [di sini](/2020/08/opensuse-leap-di-google-cloud-platform.html)
 
