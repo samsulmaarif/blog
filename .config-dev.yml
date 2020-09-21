@@ -10,6 +10,7 @@ keywords: sysadmin,docker,system administrator,sysadmin malang,jasa sysadmin,jas
 search: true
 timezone: Asia/Jakarta
 url: ""
+baseurl: "/"
 
 # --- Navigation bar options --- #
 
@@ -69,16 +70,16 @@ url-pretty: "www.samsul.web.id"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: ""
+#disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: ""
+#google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
 
 # Facebook App ID
-fb_app_id: ""
+#fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
@@ -90,6 +91,9 @@ mobile-theme-col: "#0085A1"
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
 title-separator: "-"
+
+# Date format
+date_format: "%-d %B %Y"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
