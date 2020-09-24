@@ -132,12 +132,11 @@ Nah, untuk urusan cache, kita dapat menggunakan S3-nya AWS, atau GCS-nya Google.
 Pertama kita buat embernya (bucket):
 
 ```
-gsutil mb -l asia --retention 5d gs://nacita-cache
+gsutil mb -l asia gs://nacita-cache
 ```
 
 Sedikit penjelasan nih mengenai opsi yang digunakan:
 - opsi `-l asia` kita memilih lokasi ember terdekat yaitu di `asia`
-- lalu opsi `--retention 5d`, dalam hal ini saya menggunakan retensi 5 hari, saat ada cache yang usianya lebih dari 5 hari akan otomatis dihapus.
 - pada bagian terakhir, `nacita-cache` adalah nama storage bucket-nya.
 
 Selanjutnya kita buat `service-account` untuk otentikasi ke GCS tersebut nantinya:
