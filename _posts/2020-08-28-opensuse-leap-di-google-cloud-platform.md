@@ -112,3 +112,5 @@ samsul@nacita-runner:~>
 ```
 
 Nah, sampe di sini kita sudah dapat menggunakan VM openSUSE Leap 15.2 kita di GCP. Langkah selanjutnya terserah Anda, apakah akan menginstall web-server atau apapun. Bahkan Desktop Environment, tapi untuk apa?
+
+Ingin belajar lebih jauh tentang teknologi Google Cloud? atau ingin menyewa jasa kami? boleh lah intip ke sini --> [https://nacita.id](https://nacita.id/layanan/jasa/)

@@ -309,6 +309,8 @@ Eh, maaf salah paste gambar, maksudnya yang ini :
 Atau klik aja pranala ini --> [https://nacita.id/training/gitlab-intermediate/](https://nacita.id/training/gitlab-intermediate/)
 
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkiqSQixyQAE1V4_nptF2ZbALvQO-ImMSrISI6LzwoAgTgO7dsmpw-wJ_MFpPv1BRmvaYCoaFkseOZ/embed?start=false&loop=true&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Referensi
 - [https://verkoyen.eu](https://verkoyen.eu/blog/2018/08/scaling-gitlab-runner-on-google-cloud-platform)
 - [https://docs.gitlab.com/runner/configuration/advanced-configuration.html](https://docs.gitlab.com/runner/configuration/advanced-configuration.html)
